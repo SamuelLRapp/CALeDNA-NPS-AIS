@@ -1,0 +1,5 @@
+1. Gnr_resolve and tax_name don't always produce identical results even if both of them are querying NCBi.
+I'm not exactly sure why but it maybe due to gnr_resolve using a 2012 NCBI taxonomic backbone according to gnr_datasources(). 
+2. I run gnr_resolve on the original species list given to us so the names being given to tax_name are properly formatted. For example the first entry in the google sheet: Codium fragile ssp tomentosoides is unidentifiable to tax_name, unless converted to 'Codium fragile subsp. tomentosoides' by gnr_resolve first.
+3. I hope that the google sheet only starts with genus species content or the tax_name stuff in the for loops may get fucked up.
+4. Tax_name seems to be unable to handle clades. Example: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi. Tax_name(sargassum muticum) can ID genus, family, order, class but (see link) when it bumps into a clade in the taxonomic backbone it is unable to find phylum and domain afterwards, even though they exist (see link for proof)
