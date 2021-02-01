@@ -1,9 +1,12 @@
 library(taxize)
 library(rentrez)
 
-GoogleSheetData <- read.csv(file = "CALeDNA-NPS_aquatic-invasive_species_eDNA-primers_SPECIES_ANALYSIS.csv") #google sheet where the first column is the list of genus-species names you want higher taxonomic rankings for
+set_entrez_key("4e400b86621f28a75c9025133cb1cea4f108")
+Sys.getenv("ENTREZ_KEY")
+
+GoogleSheetData <- read.csv(file = "CALeDNA-NPS_aquatic-invasive_species_eDNA-primers_SPECIES_ANALYSIS.csv") #google sheet where the first column is the list of genus-species names you want higher taxonomic rankings of
 class(GoogleSheetData) #its a dataframe
-GoogleSheetData <- GoogleSheetData[1:100,]#[1:5,] #SUBSET THE dataframe to do testing
+GoogleSheetData <- GoogleSheetData[1:5,]#[1:100,]#[1:5,] #SUBSET THE dataframe to do testing
 
 num_rows <- nrow(GoogleSheetData) #get row count
 column_names <- c("speciesgenus", "Genus", "Family", "order", "class","phylum", "domain", "CALeDNA format")
@@ -36,3 +39,26 @@ for(i in 1:num_rows)
   #CALeDNA dataformatting
   taxonomy_dataframe[i,8] <- paste(  taxonomy_dataframe[i,7],taxonomy_dataframe[i,6], taxonomy_dataframe[i,5],taxonomy_dataframe[i,4],taxonomy_dataframe[i,3],taxonomy_dataframe[i,2],taxonomy_dataframe[i,1], sep = ";", collapse = '')
 }
+
+#to download full dataset
+write.csv(taxonomy_dataframe, file = "taxonomy_dataframeRCODE", row.names= FALSE)
+
+#to downloadjust a single column as a csv: (THERE IS DEF A BETTER WAY TO DO THIS***)
+gnr_species <- data.frame(matrix(ncol=1, nrow = num_rows)) #initialize dataframe with 1 col
+gnr_species$SpeciesName <- taxonomy_dataframe$speciesgenus #First $ names the column, Second $ selects the column to paste into our new DF
+gnr_species <- gnr_species[c(2,1)] #reorder columns
+write.csv(gnr_species, file = "firstconvert2.csv", row.names= FALSE)
+
+#to create a comma seperated .txt file of a single row
+#taken from: https://stackoverflow.com/questions/38489762/how-to-create-a-comma-separated-vector-and-save-it-in-a-text-file-in-r
+single_tax_list <- taxonomy_dataframe[,1] #1=species-gen, 2 = genus, 3 = family, etc 
+vectStr=paste(as.character(single_tax_list), sep="' '", collapse=",")
+sink("single_tax_list.txt")
+cat(vectStr)
+#cat("\n")
+sink()
+file.show("outfile.txt")
+#this output can be taken directly to the Sequence Coverage Browser
+
+
+
