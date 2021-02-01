@@ -1,9 +1,6 @@
 library(taxize)
 library(rentrez)
 
-set_entrez_key("4e400b86621f28a75c9025133cb1cea4f108")
-Sys.getenv("ENTREZ_KEY")
-
 GoogleSheetData <- read.csv(file = "CALeDNA-NPS_aquatic-invasive_species_eDNA-primers_SPECIES_ANALYSIS.csv") #google sheet where the first column is the list of genus-species names you want higher taxonomic rankings of
 class(GoogleSheetData) #its a dataframe
 GoogleSheetData <- GoogleSheetData[1:5,]#[1:100,]#[1:5,] #SUBSET THE dataframe to do testing
