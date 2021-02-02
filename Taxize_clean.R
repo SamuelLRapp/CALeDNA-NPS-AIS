@@ -3,7 +3,7 @@ library(rentrez)
 
 GoogleSheetData <- read.csv(file = "CALeDNA-NPS_aquatic-invasive_species_eDNA-primers_SPECIES_ANALYSIS.csv") #google sheet where the first column is the list of genus-species names you want higher taxonomic rankings of
 class(GoogleSheetData) #its a dataframe
-GoogleSheetData <- GoogleSheetData[1:5,]#[1:100,]#[1:5,] #SUBSET THE dataframe to do testing
+GoogleSheetData <- GoogleSheetData#[1:100,]#[1:5,] #SUBSET THE dataframe to do testing
 
 num_rows <- nrow(GoogleSheetData) #get row count
 column_names <- c("speciesgenus", "Genus", "Family", "order", "class","phylum", "domain", "CALeDNA format")
@@ -37,8 +37,10 @@ for(i in 1:num_rows)
   taxonomy_dataframe[i,8] <- paste(  taxonomy_dataframe[i,7],taxonomy_dataframe[i,6], taxonomy_dataframe[i,5],taxonomy_dataframe[i,4],taxonomy_dataframe[i,3],taxonomy_dataframe[i,2],taxonomy_dataframe[i,1], sep = ";", collapse = '')
 }
 
+#Downloading and Exporting results in various ways!
+
 #to download full dataset
-write.csv(taxonomy_dataframe, file = "taxonomy_dataframeRCODE", row.names= FALSE)
+write.csv(taxonomy_dataframe, file = "taxonomy_dataframeRCODE_selected_homonym", row.names= FALSE)
 
 #to downloadjust a single column as a csv: (THERE IS DEF A BETTER WAY TO DO THIS***)
 gnr_species <- data.frame(matrix(ncol=1, nrow = num_rows)) #initialize dataframe with 1 col
@@ -47,15 +49,23 @@ gnr_species <- gnr_species[c(2,1)] #reorder columns
 write.csv(gnr_species, file = "firstconvert2.csv", row.names= FALSE)
 
 #to create a comma seperated .txt file of a single row
-#taken from: https://stackoverflow.com/questions/38489762/how-to-create-a-comma-separated-vector-and-save-it-in-a-text-file-in-r
-single_tax_list <- taxonomy_dataframe[,1] #1=species-gen, 2 = genus, 3 = family, etc 
-vectStr=paste(as.character(single_tax_list), sep="' '", collapse=",")
-sink("single_tax_list.txt")
-cat(vectStr)
+CleanDataframe <- taxonomy_dataframe#make a df copy to manipulate
+#remove rows if there is a NA value in a specified cols: #"speciesgenus", "Genus", "Family", "order", "class","phylum", "domain", "CALeDNA format")
+CleanDataframe<- CleanDataframe[!is.na(CleanDataframe$Family), ] 
+#removing rows in the dataframe where duplicate values are found in a specified cols
+CleanDataframe<- unique(CleanDataframe[,3])#create vector of unique values in specified subset of dataframe 
+Family_comma_sep_list.txt <- CleanDataframe
+
+#if you dont want to deduplicate or remove NAs just run the line below
+#single_tax_list_GENUS.txt <- taxonomy_dataframe[,2] #1=species-gen, 2 = genus, 3 = family, etc 
+
+vectStr=paste(as.character(Family_comma_sep_list.txt), sep="' '", collapse=",")
+sink("Family_comma_sep_list.txt")
+cat(vectStr) 
 #cat("\n")
 sink()
-file.show("outfile.txt")
+file.show("Family_comma_sep_list.txt")
 #this output can be taken directly to the Sequence Coverage Browser
 
-
+view(taxonomy_dataframe)
 
