@@ -1,0 +1,717 @@
+speciesgenus,Genus,Family,order,class,phylum,domain
+Codium fragile subsp. tomentosoides,Codium,Codiaceae,Bryopsidales,Ulvophyceae,Chlorophyta,Eukaryota
+Heterosiphonia,Heterosiphonia,Dasyaceae,Ceramiales,Florideophyceae,Rhodophyta,Eukaryota
+Prorocentrum minimum,Prorocentrum,Prorocentraceae,Prorocentrales,Dinophyceae,NA,NA
+Sargassum muticum,Sargassum,Sargassaceae,Fucales,Phaeophyceae,NA,NA
+Bonnemaisonia hamifera,Bonnemaisonia,Bonnemaisoniaceae,Bonnemaisoniales,Florideophyceae,Rhodophyta,Eukaryota
+Ficopomatus enigmaticus,Ficopomatus,Serpulidae,Sabellida,Polychaeta,Annelida,Eukaryota
+Teredo navalis,Teredo,Teredinidae,Myida,Bivalvia,Mollusca,Eukaryota
+Marenzelleria viridis,Marenzelleria,Spionidae,Spionida,Polychaeta,Annelida,Eukaryota
+Membranipora membranacea,Membranipora,Membraniporidae,Cheilostomatida,Gymnolaemata,Bryozoa,Eukaryota
+Bugula neritina,Bugula,Bugulidae,Cheilostomatida,Gymnolaemata,Bryozoa,Eukaryota
+Cordylophora caspia,Cordylophora,Oceaniidae,Anthoathecata,Hydrozoa,Cnidaria,Eukaryota
+Ectopleura crocea,Ectopleura,Tubulariidae,Anthoathecata,Hydrozoa,Cnidaria,Eukaryota
+Mysis diluviana,Mysis,Mysidae,Mysida,Malacostraca,Arthropoda,Eukaryota
+Caprella mutica,Caprella,Caprellidae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Amphibalanus improvisus,Amphibalanus,Balanidae,Sessilia,Hexanauplia,Arthropoda,Eukaryota
+Bythotrephes longimanus,Bythotrephes,Cercopagididae,Diplostraca,Branchiopoda,Arthropoda,Eukaryota
+Cercopagis pengoi,Cercopagis,Cercopagididae,Diplostraca,Branchiopoda,Arthropoda,Eukaryota
+Rhithropanopeus harrisii,Rhithropanopeus,Panopeidae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Orconectes,Orconectes,Cambaridae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Procambarus clarkii,Procambarus,Cambaridae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Homarus americanus,Homarus,Nephropidae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Crepidula fornicata,Crepidula,Calyptraeidae,Littorinimorpha,Gastropoda,Mollusca,Eukaryota
+Mytilopsis leucophaeata,Mytilopsis,Dreissenidae,Myida,Bivalvia,Mollusca,Eukaryota
+Dreissena polymorpha,Dreissena,Dreissenidae,Myida,Bivalvia,Mollusca,Eukaryota
+Crassostrea gigas,Crassostrea,Ostreidae,Ostreida,Bivalvia,Mollusca,Eukaryota
+Petricolaria pholadiformis,Petricolaria,Petricolidae,Venerida,Bivalvia,Mollusca,Eukaryota
+Corbicula fluminea,Corbicula,Corbiculidae,Venerida,Bivalvia,Mollusca,Eukaryota
+Dreissena rostriformis bugensis,Dreissena,Dreissenidae,Myida,Bivalvia,Mollusca,Eukaryota
+Melanoides tuberculata,Melanoides,Thiaridae,NA,Gastropoda,Mollusca,Eukaryota
+Potamopyrgus antipodarum,Potamopyrgus,Tateidae,Littorinimorpha,Gastropoda,Mollusca,Eukaryota
+Caulerpa taxifolia,Caulerpa,Caulerpaceae,Bryopsidales,Ulvophyceae,Chlorophyta,Eukaryota
+Myriophyllum aquaticum,Myriophyllum,Haloragaceae,Saxifragales,Magnoliopsida,Streptophyta,Eukaryota
+Egeria densa,Egeria,Hydrocharitaceae,Alismatales,Magnoliopsida,Streptophyta,Eukaryota
+Eichhornia crassipes,Pontederia,Pontederiaceae,Commelinales,Magnoliopsida,Streptophyta,Eukaryota
+Hydrilla verticillata,Hydrilla,Hydrocharitaceae,Alismatales,Magnoliopsida,Streptophyta,Eukaryota
+Nymphoides peltata,Nymphoides,Menyanthaceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Pistia stratiotes,Pistia,Araceae,Alismatales,Magnoliopsida,Streptophyta,Eukaryota
+Salvinia molesta,Salvinia,Salviniaceae,Salviniales,Polypodiopsida,Streptophyta,Eukaryota
+Ciona intestinalis,Ciona,Cionidae,Phlebobranchia,Ascidiacea,Chordata,Eukaryota
+Didemnum vexillum,Didemnum,Didemnidae,Aplousobranchia,Ascidiacea,Chordata,Eukaryota
+Styela clava,Styela,Styelidae,Stolidobranchia,Ascidiacea,Chordata,Eukaryota
+Molgula manhattensis,Molgula,Molgulidae,Stolidobranchia,Ascidiacea,Chordata,Eukaryota
+Ascidiella aspersa,Ascidiella,Ascidiidae,Phlebobranchia,Ascidiacea,Chordata,Eukaryota
+Styela plicata,Styela,Styelidae,Stolidobranchia,Ascidiacea,Chordata,Eukaryota
+Ciona savignyi,Ciona,Cionidae,Phlebobranchia,Ascidiacea,Chordata,Eukaryota
+Diplosoma listerianum,Diplosoma,Didemnidae,Aplousobranchia,Ascidiacea,Chordata,Eukaryota
+Alosa sapidissima,Alosa,Clupeidae,Clupeiformes,Actinopteri,Chordata,Eukaryota
+Cichlasoma,Cichlasoma,Cichlidae,Cichliformes,Actinopteri,Chordata,Eukaryota
+Morone saxatilis,Morone,Moronidae,NA,Actinopteri,Chordata,Eukaryota
+Osmerus mordax,Osmerus,Osmeridae,Osmeriformes,Actinopteri,Chordata,Eukaryota
+Salmo salar,Salmo,Salmonidae,Salmoniformes,Actinopteri,Chordata,Eukaryota
+Pterois volitans,Pterois,Scorpaenidae,Perciformes,Actinopteri,Chordata,Eukaryota
+Ameiurus melas,Ameiurus,Ictaluridae,Siluriformes,Actinopteri,Chordata,Eukaryota
+Ameiurus nebulosus,Ameiurus,Ictaluridae,Siluriformes,Actinopteri,Chordata,Eukaryota
+Anguilla rostrata,Anguilla,Anguillidae,Anguilliformes,Actinopteri,Chordata,Eukaryota
+Carassius auratus,Carassius,Cyprinidae,Cypriniformes,Actinopteri,Chordata,Eukaryota
+Ctenopharyngodon idella,Ctenopharyngodon,Xenocyprididae,Cypriniformes,Actinopteri,Chordata,Eukaryota
+Cyprinus carpio,Cyprinus,Cyprinidae,Cypriniformes,Actinopteri,Chordata,Eukaryota
+Gambusia affinis,Gambusia,Poeciliidae,Cyprinodontiformes,Actinopteri,Chordata,Eukaryota
+Gambusia holbrooki,Gambusia,Poeciliidae,Cyprinodontiformes,Actinopteri,Chordata,Eukaryota
+Gasterosteus aculeatus,Gasterosteus,Gasterosteidae,Perciformes,Actinopteri,Chordata,Eukaryota
+Gymnocephalus cernua,Gymnocephalus,Percidae,Perciformes,Actinopteri,Chordata,Eukaryota
+Hypophthalmichthys nobilis,Hypophthalmichthys,Xenocyprididae,Cypriniformes,Actinopteri,Chordata,Eukaryota
+Lepisosteus platostomus,Lepisosteus,Lepisosteidae,Semionotiformes,Actinopteri,Chordata,Eukaryota
+Neogobius melanostomus,Neogobius,Gobiidae,Gobiiformes,Actinopteri,Chordata,Eukaryota
+Oncorhynchus gorbuscha,Oncorhynchus,Salmonidae,Salmoniformes,Actinopteri,Chordata,Eukaryota
+Oncorhynchus mykiss,Oncorhynchus,Salmonidae,Salmoniformes,Actinopteri,Chordata,Eukaryota
+Platichthys flesus,Platichthys,Pleuronectidae,Pleuronectiformes,Actinopteri,Chordata,Eukaryota
+Salmo trutta,Salmo,Salmonidae,Salmoniformes,Actinopteri,Chordata,Eukaryota
+Salvelinus alpinus,Salvelinus,Salmonidae,Salmoniformes,Actinopteri,Chordata,Eukaryota
+Salvelinus fontinalis,Salvelinus,Salmonidae,Salmoniformes,Actinopteri,Chordata,Eukaryota
+Scardinius erythrophthalmus,Scardinius,Leuciscidae,Cypriniformes,Actinopteri,Chordata,Eukaryota
+Tinca tinca,Tinca,Tincidae,Cypriniformes,Actinopteri,Chordata,Eukaryota
+Danio rerio,Danio,Danionidae,Cypriniformes,Actinopteri,Chordata,Eukaryota
+Mylopharyngodon piceus,Mylopharyngodon,Xenocyprididae,Cypriniformes,Actinopteri,Chordata,Eukaryota
+Alexandrium ostenfeldii,Alexandrium,Gonyaulacaceae,Gonyaulacales,Dinophyceae,NA,NA
+Alexandrium tamarense,Alexandrium,Gonyaulacaceae,Gonyaulacales,Dinophyceae,NA,NA
+Corbula,Corbula,Corbulidae,Myida,Bivalvia,Mollusca,Eukaryota
+Myriophyllum spicatum,Myriophyllum,Haloragaceae,Saxifragales,Magnoliopsida,Streptophyta,Eukaryota
+Botryllus schlosseri,Botryllus,Styelidae,Stolidobranchia,Ascidiacea,Chordata,Eukaryota
+Botrylloides violaceus,Botrylloides,Styelidae,Stolidobranchia,Ascidiacea,Chordata,Eukaryota
+Mya arenaria,Mya,Myidae,Myida,Bivalvia,Mollusca,Eukaryota
+Asparagopsis armata,Asparagopsis,Bonnemaisoniaceae,Bonnemaisoniales,Florideophyceae,Rhodophyta,Eukaryota
+Oreochromis mossambicus,Oreochromis,Cichlidae,Cichliformes,Actinopteri,Chordata,Eukaryota
+Charybdis hellerii,Charybdis,Portunidae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Rangia cuneata,Rangia,Mactridae,Venerida,Bivalvia,Mollusca,Eukaryota
+Belonesox belizanus,Belonesox,Poeciliidae,Cyprinodontiformes,Actinopteri,Chordata,Eukaryota
+Dorosoma petenense,Dorosoma,Clupeidae,Clupeiformes,Actinopteri,Chordata,Eukaryota
+Eriocheir sinensis,Eriocheir,Varunidae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Monopterus albus,Monopterus,Synbranchidae,Synbranchiformes,Actinopteri,Chordata,Eukaryota
+Lepomis macrochirus,Lepomis,Centrarchidae,Centrarchiformes,Actinopteri,Chordata,Eukaryota
+Acanthophora spicifera,Acanthophora,Rhodomelaceae,Ceramiales,Florideophyceae,Rhodophyta,Eukaryota
+Microspongium globosum,Microspongium,Chordariaceae,Ectocarpales,Phaeophyceae,NA,NA
+Alepes djedaba,Alepes,Carangidae,Carangiformes,Actinopteri,Chordata,Eukaryota
+Avrainvillea,Avrainvillea,Dichotomosiphonaceae,Bryopsidales,Ulvophyceae,Chlorophyta,Eukaryota
+Cladophora sericea,Cladophora,Cladophoraceae,Cladophorales,Ulvophyceae,Chlorophyta,Eukaryota
+Dictyosphaeria cavernosa,Dictyosphaeria,Siphonocladaceae,Cladophorales,Ulvophyceae,Chlorophyta,Eukaryota
+Fucus cottoni,Fucus,Fucaceae,Fucales,Phaeophyceae,NA,NA
+Gracilaria salicornia,Gracilaria,Gracilariaceae,Gracilariales,Florideophyceae,Rhodophyta,Eukaryota
+Grateloupia filicina,Grateloupia,Halymeniaceae,Halymeniales,Florideophyceae,Rhodophyta,Eukaryota
+Hypnea musciformis,Hypnea,Hypneaceae,Gigartinales,Florideophyceae,Rhodophyta,Eukaryota
+Kappaphycus alvarezii,Kappaphycus,Solieriaceae,Gigartinales,Florideophyceae,Rhodophyta,Eukaryota
+Neosiphonia,Neosiphonia,Rhodomelaceae,Ceramiales,Florideophyceae,Rhodophyta,Eukaryota
+Ulva fasciata,Ulva,Ulvaceae,Ulvales,Ulvophyceae,Chlorophyta,Eukaryota
+Antithamnion nipponicum,Antithamnion,Ceramiaceae,Ceramiales,Florideophyceae,Rhodophyta,Eukaryota
+Asparagopsis taxiformis,Asparagopsis,Bonnemaisoniaceae,Bonnemaisoniales,Florideophyceae,Rhodophyta,Eukaryota
+Gymnodinium catenatum,Gymnodinium,Gymnodiniaceae,Gymnodiniales,Dinophyceae,NA,NA
+Antithamnionella spirographidis,Antithamnionella,Ceramiaceae,Ceramiales,Florideophyceae,Rhodophyta,Eukaryota
+Bryopsis pennata,Bryopsis,Bryopsidaceae,Bryopsidales,Ulvophyceae,Chlorophyta,Eukaryota
+Gracilaria tikvahiae,Gracilaria,Gracilariaceae,Gracilariales,Florideophyceae,Rhodophyta,Eukaryota
+Grateloupia turuturu,Grateloupia,Halymeniaceae,Halymeniales,Florideophyceae,Rhodophyta,Eukaryota
+Macrocystis integrifolia,Macrocystis,Laminariaceae,Laminariales,Phaeophyceae,NA,NA
+Polysiphonia,Polysiphonia,Rhodomelaceae,Ceramiales,Florideophyceae,Rhodophyta,Eukaryota
+Actinocyclus,Actinocyclus,Hemidiscaceae,Coscinodiscales,Coscinodiscophyceae,Bacillariophyta,Eukaryota
+Aureococcus anophagefferens,Aureococcus,NA,Pelagomonadales,Pelagophyceae,NA,NA
+Aureoumbra lagunensis,Aureoumbra,NA,Pelagomonadales,Pelagophyceae,NA,NA
+Bangia atropurpurea,Bangia,Bangiaceae,Bangiales,Bangiophyceae,Rhodophyta,Eukaryota
+Caulacanthus ustulatus,Caulacanthus,Caulacanthaceae,Gigartinales,Florideophyceae,Rhodophyta,Eukaryota
+Caulerpa serrulata,Caulerpa,Caulerpaceae,Bryopsidales,Ulvophyceae,Chlorophyta,Eukaryota
+Chaetoceros muellerii,Chaetoceros,Chaetocerotaceae,Chaetocerotales,Coscinodiscophyceae,Bacillariophyta,Eukaryota
+Chroodactylon,Chroodactylon,Porphyridiaceae,Porphyridiales,Bangiophyceae,Rhodophyta,Eukaryota
+Cyclotella atomus,Cyclotella,Stephanodiscaceae,Thalassiosirales,Coscinodiscophyceae,Bacillariophyta,Eukaryota
+Cyclotella cryptica,Cyclotella,Stephanodiscaceae,Thalassiosirales,Coscinodiscophyceae,Bacillariophyta,Eukaryota
+Cyclotella pseudostelligera,Cyclotella,Stephanodiscaceae,Thalassiosirales,Coscinodiscophyceae,Bacillariophyta,Eukaryota
+Cyclotella,Cyclotella,Stephanodiscaceae,Thalassiosirales,Coscinodiscophyceae,Bacillariophyta,Eukaryota
+Cylindrospermopsis raciborskii,Cylindrospermopsis,Aphanizomenonaceae,Nostocales,NA,Cyanobacteria,Bacteria
+Diatoma,Diatoma,Fragilariaceae,Fragilariales,Fragilariophyceae,Bacillariophyta,Eukaryota
+Didymosphenia geminata,Didymosphenia,Gomphonemataceae,Cymbellales,Bacillariophyceae,Bacillariophyta,Eukaryota
+Enteromorpha flexuosa,Ulva,Ulvaceae,Ulvales,Ulvophyceae,Chlorophyta,Eukaryota
+Enteromorpha intestinalis,Ulva,Ulvaceae,Ulvales,Ulvophyceae,Chlorophyta,Eukaryota
+Enteromorpha prolifera,Ulva,Ulvaceae,Ulvales,Ulvophyceae,Chlorophyta,Eukaryota
+Hymenomonas,Hymenomonas,Hymenomonadaceae,Coccolithales,Haptophyta,Haptista,Eukaryota
+Nitellopsis obtusa,Nitellopsis,Characeae,Charales,Charophyceae,Streptophyta,Eukaryota
+Pleurosira laevis,Pleurosira,Triceratiaceae,Triceratiales,Mediophyceae,Bacillariophyta,Eukaryota
+Skeletonema potamos,Skeletonema,Skeletonemataceae,Thalassiosirales,Coscinodiscophyceae,Bacillariophyta,Eukaryota
+Skeletonema subsalsum,Skeletonema,Skeletonemataceae,Thalassiosirales,Coscinodiscophyceae,Bacillariophyta,Eukaryota
+Sphacelaria,Sphacelaria,Sphacelariaceae,Sphacelariales,Phaeophyceae,NA,NA
+Sphacelaria,Sphacelaria,Sphacelariaceae,Sphacelariales,Phaeophyceae,NA,NA
+Stephanodiscus binderanus,Stephanodiscus,Stephanodiscaceae,Thalassiosirales,Coscinodiscophyceae,Bacillariophyta,Eukaryota
+Stephanodiscus,Stephanodiscus,Stephanodiscaceae,Thalassiosirales,Coscinodiscophyceae,Bacillariophyta,Eukaryota
+Thalassiosira baltica,Thalassiosira,Thalassiosiraceae,Thalassiosirales,Coscinodiscophyceae,Bacillariophyta,Eukaryota
+Thalassiosira,Thalassiosira,Thalassiosiraceae,Thalassiosirales,Coscinodiscophyceae,Bacillariophyta,Eukaryota
+Thalassiosira,Thalassiosira,Thalassiosiraceae,Thalassiosirales,Coscinodiscophyceae,Bacillariophyta,Eukaryota
+Thalassiosira pseudonana,Thalassiosira,Thalassiosiraceae,Thalassiosirales,Coscinodiscophyceae,Bacillariophyta,Eukaryota
+Thalassiosira,Thalassiosira,Thalassiosiraceae,Thalassiosirales,Coscinodiscophyceae,Bacillariophyta,Eukaryota
+Bufo,Bufo,Bufonidae,Anura,Amphibia,Chordata,Eukaryota
+Paranais frici,Paranais,Naididae,Haplotaxida,Clitellata,Annelida,Eukaryota
+Branchiura sowerbyi,Branchiura,Naididae,Haplotaxida,Clitellata,Annelida,Eukaryota
+Gianius aquaedulcis,Gianius,Naididae,Haplotaxida,Clitellata,Annelida,Eukaryota
+Potamothrix bedoti,Potamothrix,Naididae,Haplotaxida,Clitellata,Annelida,Eukaryota
+Potamothrix moldaviensis,Potamothrix,Naididae,Haplotaxida,Clitellata,Annelida,Eukaryota
+Potamothrix vejdovskyi,Potamothrix,Naididae,Haplotaxida,Clitellata,Annelida,Eukaryota
+Ripistes parasita,Ripistes,Naididae,Haplotaxida,Clitellata,Annelida,Eukaryota
+Heteromastus filiformis,Heteromastus,Capitellidae,NA,Polychaeta,Annelida,Eukaryota
+Polydora cornuta,Polydora,Spionidae,Spionida,Polychaeta,Annelida,Eukaryota
+Boccardiella ligerica,Boccardiella,Spionidae,Spionida,Polychaeta,Annelida,Eukaryota
+Salmacina,Salmacina,Serpulidae,Sabellida,Polychaeta,Annelida,Eukaryota
+Amphicteis,Amphicteis,Ampharetidae,Terebellida,Polychaeta,Annelida,Eukaryota
+Capitella capitata,Capitella,Capitellidae,NA,Polychaeta,Annelida,Eukaryota
+Dodecaceria concharum,Dodecaceria,Cirratulidae,Terebellida,Polychaeta,Annelida,Eukaryota
+Exogone,Exogone,Syllidae,Phyllodocida,Polychaeta,Annelida,Eukaryota
+Harmothoe imbricata,Harmothoe,Polynoidae,Phyllodocida,Polychaeta,Annelida,Eukaryota
+Hydroides brachyacantha,Hydroides,Serpulidae,Sabellida,Polychaeta,Annelida,Eukaryota
+Lumbrineris japonica,Lumbrineris,Lumbrineridae,Eunicida,Polychaeta,Annelida,Eukaryota
+Marphysa sanguinea,Marphysa,Eunicidae,Eunicida,Polychaeta,Annelida,Eukaryota
+Myxicola,Myxicola,Sabellidae,Sabellida,Polychaeta,Annelida,Eukaryota
+Neanthes acuminata,Neanthes,Nereididae,Phyllodocida,Polychaeta,Annelida,Eukaryota
+Neanthes,Neanthes,Nereididae,Phyllodocida,Polychaeta,Annelida,Eukaryota
+Neanthes,Neanthes,Nereididae,Phyllodocida,Polychaeta,Annelida,Eukaryota
+Nephtys longosetosa,Nephtys,Nephtyidae,Phyllodocida,Polychaeta,Annelida,Eukaryota
+Polydora,Polydora,Spionidae,Spionida,Polychaeta,Annelida,Eukaryota
+Pomatoleios kraussii,Pomatoleios,Serpulidae,Sabellida,Polychaeta,Annelida,Eukaryota
+Scolelepis squamata,Scolelepis,Spionidae,Spionida,Polychaeta,Annelida,Eukaryota
+Spiophanes,Spiophanes,Spionidae,Spionida,Polychaeta,Annelida,Eukaryota
+Streblospio benedicti,Streblospio,Spionidae,Spionida,Polychaeta,Annelida,Eukaryota
+Acentropus niveus,NA,NA,NA,NA,NA,NA
+Tanysphyrus lemnae,Tanysphyrus,Brachyceridae,Coleoptera,Insecta,Arthropoda,Eukaryota
+Ammothea hilgendorfi,Ammothea,Ammotheidae,Pantopoda,Pycnogonida,Arthropoda,Eukaryota
+Cygnus olor,Cygnus,Anatidae,Anseriformes,Aves,Chordata,Eukaryota
+Tricellaria inopinata,Tricellaria,Candidae,Cheilostomatida,Gymnolaemata,Bryozoa,Eukaryota
+Victorella pavida,NA,NA,NA,NA,NA,NA
+Cryptosula pallasiana,Cryptosula,Cryptosulidae,Cheilostomatida,Gymnolaemata,Bryozoa,Eukaryota
+Schizoporella,Schizoporella,Schizoporellidae,Cheilostomatida,Gymnolaemata,Bryozoa,Eukaryota
+Amathia distans,Amathia,Vesiculariidae,Ctenostomatida,Gymnolaemata,Bryozoa,Eukaryota
+Schizoporella errata,Schizoporella,Schizoporellidae,Cheilostomatida,Gymnolaemata,Bryozoa,Eukaryota
+Watersipora arcuata,Watersipora,Watersiporidae,Cheilostomatida,Gymnolaemata,Bryozoa,Eukaryota
+Alcyonidium gelatinosum,Alcyonidium,Alcyonidiidae,Ctenostomatida,Gymnolaemata,Bryozoa,Eukaryota
+Barentsia benedeni,Barentsia,Barentsiidae,NA,NA,Entoprocta,Eukaryota
+Bowerbankia,Bowerbankia,Vesiculariidae,Ctenostomatida,Gymnolaemata,Bryozoa,Eukaryota
+Bowerbankia,Bowerbankia,Vesiculariidae,Ctenostomatida,Gymnolaemata,Bryozoa,Eukaryota
+Bugula,Bugula,Bugulidae,Cheilostomatida,Gymnolaemata,Bryozoa,Eukaryota
+Bugula pacifica,Bugula,Bugulidae,Cheilostomatida,Gymnolaemata,Bryozoa,Eukaryota
+Cribrilina,Cribrilina,Cribrilinidae,Cheilostomatida,Gymnolaemata,Bryozoa,Eukaryota
+Lophopodella carteri,Lophopodella,Lophopodidae,NA,Phylactolaemata,Bryozoa,Eukaryota
+Membranipora,Membranipora,Membraniporidae,Cheilostomatida,Gymnolaemata,Bryozoa,Eukaryota
+Poricella robusta,NA,NA,NA,NA,NA,NA
+Savigyniella lafonti,Savigyniella,Savignyellidae,Cheilostomatida,Gymnolaemata,Bryozoa,Eukaryota
+Tubulipora,Tubulipora,Tubuliporidae,Tubuliporida,Stenolaemata,Bryozoa,Eukaryota
+Watersipora subtorquata,Watersipora,Watersiporidae,Cheilostomatida,Gymnolaemata,Bryozoa,Eukaryota
+Myxobolus cerebralis,Myxobolus,Myxobolidae,Bivalvulida,Myxozoa,Cnidaria,Eukaryota
+Carijoa riisei,Carijoa,Clavulariidae,Alcyonacea,Anthozoa,Cnidaria,Eukaryota
+Diadumene lineata,Diadumene,Diadumenidae,Actiniaria,Anthozoa,Cnidaria,Eukaryota
+Tubastraea coccinea,Tubastraea,Dendrophylliidae,Scleractinia,Anthozoa,Cnidaria,Eukaryota
+Bunodeopsis,Bunodeopsis,Boloceroididae,Actiniaria,Anthozoa,Cnidaria,Eukaryota
+Diadumene,Diadumene,Diadumenidae,Actiniaria,Anthozoa,Cnidaria,Eukaryota
+Diadumene leucolena,Diadumene,Diadumenidae,Actiniaria,Anthozoa,Cnidaria,Eukaryota
+Garveia,Garveia,Bougainvilliidae,Anthoathecata,Hydrozoa,Cnidaria,Eukaryota
+Maeotias marginata,Maeotias,Olindiidae,Limnomedusae,Hydrozoa,Cnidaria,Eukaryota
+Moerisia lyonsi,Moerisia,Moerisiidae,Anthoathecata,Hydrozoa,Cnidaria,Eukaryota
+Gonionemus vertens,Gonionemus,Olindiidae,Limnomedusae,Hydrozoa,Cnidaria,Eukaryota
+Pennaria disticha,Pennaria,Pennariidae,Anthoathecata,Hydrozoa,Cnidaria,Eukaryota
+Campanulariidae,NA,Campanulariidae,Leptothecata,Hydrozoa,Cnidaria,Eukaryota
+Clytia hemisphaerica,Clytia,Clytiidae,Leptothecata,Hydrozoa,Cnidaria,Eukaryota
+Dynamena crisioides,Dynamena,Sertulariidae,Leptothecata,Hydrozoa,Cnidaria,Eukaryota
+Eudendrium,Eudendrium,Eudendriidae,Anthoathecata,Hydrozoa,Cnidaria,Eukaryota
+Gonothyraea,Gonothyraea,Campanulariidae,Leptothecata,Hydrozoa,Cnidaria,Eukaryota
+Laomedea,Laomedea,Obeliidae,Leptothecata,Hydrozoa,Cnidaria,Eukaryota
+Obelia dichotoma,Obelia,Obeliidae,Leptothecata,Hydrozoa,Cnidaria,Eukaryota
+Obelia longissima,Obelia,Obeliidae,Leptothecata,Hydrozoa,Cnidaria,Eukaryota
+Obelia,Obelia,Obeliidae,Leptothecata,Hydrozoa,Cnidaria,Eukaryota
+Plumularia strictocarpa,Plumularia,Plumulariidae,Leptothecata,Hydrozoa,Cnidaria,Eukaryota
+Sarsia tubulosa,Sarsia,Corynidae,Anthoathecata,Hydrozoa,Cnidaria,Eukaryota
+Sertularella diaphana,Sertularella,Sertulariidae,Leptothecata,Hydrozoa,Cnidaria,Eukaryota
+Thyroscyphus fruticosus,Thyroscyphus,Sertulariidae,Leptothecata,Hydrozoa,Cnidaria,Eukaryota
+Tubularia,Tubularia,Tubulariidae,Anthoathecata,Hydrozoa,Cnidaria,Eukaryota
+Turritopsis nutricula,Turritopsis,Oceaniidae,Anthoathecata,Hydrozoa,Cnidaria,Eukaryota
+Phyllorhiza punctata,Phyllorhiza,Mastigiidae,Rhizostomeae,Scyphozoa,Cnidaria,Eukaryota
+Drymonema dalmatinum,Drymonema,Drymonematidae,Semaeostomeae,Scyphozoa,Cnidaria,Eukaryota
+Maeotias,Maeotias,Olindiidae,Limnomedusae,Hydrozoa,Cnidaria,Eukaryota
+Cassiopea andromeda,Cassiopea,Cassiopeidae,Rhizostomeae,Scyphozoa,Cnidaria,Eukaryota
+Aurelia aurita,Aurelia,Ulmaridae,Semaeostomeae,Scyphozoa,Cnidaria,Eukaryota
+Craspedacusta sowerbii,Craspedacusta,Olindiidae,Limnomedusae,Hydrozoa,Cnidaria,Eukaryota
+Jassa marmorata,Jassa,Ischyroceridae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Grandidierella japonica,Grandidierella,Corophiidae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Laticorophium baconi,NA,NA,NA,NA,NA,NA
+Monocorophium acherusicum,Monocorophium,Corophiidae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Monocorophium insidiosum,Monocorophium,Corophiidae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Gammarus daiberi,Gammarus,Gammaridae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Ampelisca abdita,Ampelisca,Ampeliscidae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Ampithoe valida,Ampithoe,Ampithoidae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Bemlos virgus,NA,NA,NA,NA,NA,NA
+Corophium,Corophium,Corophiidae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Corophium,Corophium,Corophiidae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Corophium,Corophium,Corophiidae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Corophium,Corophium,Corophiidae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Corophium,Corophium,Corophiidae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Corophium,Corophium,Corophiidae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Echinogammarus ischnus,Echinogammarus,Gammaridae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Ericthonius brasiliensis,Ericthonius,Ischyroceridae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Gammarus tigrinus,Gammarus,Gammaridae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Microjassa,Microjassa,Ischyroceridae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Parapleustes,Parapleustes,Pleustidae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Stenothoe,Stenothoe,Stenothoidae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Balanus trigonus,Balanus,Balanidae,Sessilia,Hexanauplia,Arthropoda,Eukaryota
+Balanus,Balanus,Balanidae,Sessilia,Hexanauplia,Arthropoda,Eukaryota
+Balanus,Balanus,Balanidae,Sessilia,Hexanauplia,Arthropoda,Eukaryota
+Balanus,Balanus,Balanidae,Sessilia,Hexanauplia,Arthropoda,Eukaryota
+Chthamalus proteus,Chthamalus,Chthamalidae,Sessilia,Hexanauplia,Arthropoda,Eukaryota
+Balanus crenatus,Balanus,Balanidae,Sessilia,Hexanauplia,Arthropoda,Eukaryota
+Balanus glandula,Balanus,Balanidae,Sessilia,Hexanauplia,Arthropoda,Eukaryota
+Megabalanus coccopoma,Megabalanus,Balanidae,Sessilia,Hexanauplia,Arthropoda,Eukaryota
+Daphnia galeata galeata,Daphnia,Daphniidae,Diplostraca,Branchiopoda,Arthropoda,Eukaryota
+Eubosmina coregoni,Eubosmina,Bosminidae,Diplostraca,Branchiopoda,Arthropoda,Eukaryota
+Eubosmina maritima,Eubosmina,Bosminidae,Diplostraca,Branchiopoda,Arthropoda,Eukaryota
+Mytilicola orientalis,Mytilicola,Mytilicolidae,Cyclopoida,Hexanauplia,Arthropoda,Eukaryota
+Pseudodiaptomus inopinus,Pseudodiaptomus,Pseudodiaptomidae,Calanoida,Hexanauplia,Arthropoda,Eukaryota
+Argulus japonicus,Argulus,Argulidae,Arguloida,Ichthyostraca,Arthropoda,Eukaryota
+Cyclops strenuus,Cyclops,Cyclopidae,Cyclopoida,Hexanauplia,Arthropoda,Eukaryota
+Daphnia lumholtzi,Daphnia,Daphniidae,Diplostraca,Branchiopoda,Arthropoda,Eukaryota
+Eurytemora affinis,Eurytemora,Temoridae,Calanoida,Hexanauplia,Arthropoda,Eukaryota
+Heteropsyllus,Heteropsyllus,Canthocamptidae,Harpacticoida,Hexanauplia,Arthropoda,Eukaryota
+Megacyclops viridis,Megacyclops,Cyclopidae,Cyclopoida,Hexanauplia,Arthropoda,Eukaryota
+Neoergasilus japonicus,Neoergasilus,Ergasilidae,Poecilostomatoida,Hexanauplia,Arthropoda,Eukaryota
+Nippoleucon hinumensis,NA,NA,NA,NA,NA,NA
+Nitokra hibernica,Nitokra,Ameiridae,Harpacticoida,Hexanauplia,Arthropoda,Eukaryota
+Nitokra,Nitokra,Ameiridae,Harpacticoida,Hexanauplia,Arthropoda,Eukaryota
+Oithona davisae,Oithona,Oithonidae,Cyclopoida,Hexanauplia,Arthropoda,Eukaryota
+Pseudodiaptomus marinus,Pseudodiaptomus,Pseudodiaptomidae,Calanoida,Hexanauplia,Arthropoda,Eukaryota
+Salmincola,Salmincola,Lernaeopodidae,Siphonostomatoida,Hexanauplia,Arthropoda,Eukaryota
+Schizopera,Schizopera,Miraciidae,Harpacticoida,Hexanauplia,Arthropoda,Eukaryota
+Skistodiaptomus pallidus,Skistodiaptomus,Diaptomidae,Calanoida,Hexanauplia,Arthropoda,Eukaryota
+Tachidius triangularis,Tachidius,Tachidiidae,Harpacticoida,Hexanauplia,Arthropoda,Eukaryota
+Hemigrapsus sanguineus,Hemigrapsus,Varunidae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Carcinus maenas,Carcinus,Carcinidae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Callinectes bocourti,Callinectes,Portunidae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Pachygrapsus fakaravensis,Pachygrapsus,Grapsidae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Scylla serrata,Scylla,Portunidae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Cancer,Cancer,Cancridae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Petrolisthes armatus,Petrolisthes,Porcellanidae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Sphaeroma quoianum,Sphaeroma,Sphaeromatidae,Isopoda,Malacostraca,Arthropoda,Eukaryota
+Sphaeroma terebrans,Sphaeroma,Sphaeromatidae,Isopoda,Malacostraca,Arthropoda,Eukaryota
+Synidotea laevidorsalis,Synidotea,Idoteidae,Isopoda,Malacostraca,Arthropoda,Eukaryota
+Sphaeroma walkeri,Sphaeroma,Sphaeromatidae,Isopoda,Malacostraca,Arthropoda,Eukaryota
+Ligia exotica,Ligia,Ligiidae,Isopoda,Malacostraca,Arthropoda,Eukaryota
+Dynamenopsis,Dynamenopsis,Sphaeromatidae,Isopoda,Malacostraca,Arthropoda,Eukaryota
+Dynoides,Dynoides,Sphaeromatidae,Isopoda,Malacostraca,Arthropoda,Eukaryota
+Joeropsis dubia,Joeropsis,Joeropsidae,Isopoda,Malacostraca,Arthropoda,Eukaryota
+Paranthura,Paranthura,Paranthuridae,Isopoda,Malacostraca,Arthropoda,Eukaryota
+Eusarsiella,Eusarsiella,Sarsiellidae,Myodocopida,Ostracoda,Arthropoda,Eukaryota
+Hemimysis anomala,Hemimysis,Mysidae,Mysida,Malacostraca,Arthropoda,Eukaryota
+Nebalia,Nebalia,Nebaliidae,Leptostraca,Malacostraca,Arthropoda,Eukaryota
+Litopenaeus vannamei,Penaeus,Penaeidae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Macrobrachium olfersii,Macrobrachium,Palaemonidae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Penaeus monodon,Penaeus,Penaeidae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Caprella penantis,Caprella,Caprellidae,Amphipoda,Malacostraca,Arthropoda,Eukaryota
+Macrobrachium lar,Macrobrachium,Palaemonidae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Macrobrachium rosenbergii,Macrobrachium,Palaemonidae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Palaemon macrodactylus,Palaemon,Palaemonidae,Decapoda,Malacostraca,Arthropoda,Eukaryota
+Ophiactis savignyi,Ophiactis,Ophiactidae,Amphilepidida,Ophiuroidea,Echinodermata,Eukaryota
+Glugea hertwigi,Glugea,Glugeidae,NA,NA,Microsporidia,Eukaryota
+Heterosporis,Heterosporis,Pleistophoridae,NA,NA,Microsporidia,Eukaryota
+Sphaeromyxa sevastopoli,Sphaeromyxa,Sphaeromyxidae,Bivalvulida,Myxozoa,Cnidaria,Eukaryota
+Hydroides elegans,Hydroides,Serpulidae,Sabellida,Polychaeta,Annelida,Eukaryota
+Alitta succinea,Alitta,Nereididae,Phyllodocida,Polychaeta,Annelida,Eukaryota
+Polydora ciliata,Polydora,Spionidae,Spionida,Polychaeta,Annelida,Eukaryota
+Pseudopolydora paucibranchiata,Pseudopolydora,Spionidae,Spionida,Polychaeta,Annelida,Eukaryota
+Tubificoides pseudogaster,Tubificoides,Naididae,Haplotaxida,Clitellata,Annelida,Eukaryota
+Boccardia proboscidea,Boccardia,Spionidae,Spionida,Polychaeta,Annelida,Eukaryota
+Euchone,Euchone,Sabellidae,Sabellida,Polychaeta,Annelida,Eukaryota
+Hydroides dirampha,Hydroides,Serpulidae,Sabellida,Polychaeta,Annelida,Eukaryota
+Pseudopolydora kempi,Pseudopolydora,Spionidae,Spionida,Polychaeta,Annelida,Eukaryota
+Clymenella torquata,Clymenella,Maldanidae,NA,Polychaeta,Annelida,Eukaryota
+Sabellastarte spectabilis,Sabellastarte,Sabellidae,Sabellida,Polychaeta,Annelida,Eukaryota
+Janua pagenstecheri,Janua,Serpulidae,Sabellida,Polychaeta,Annelida,Eukaryota
+Perna perna,Perna,Mytilidae,Mytiloida,Bivalvia,Mollusca,Eukaryota
+Ruditapes philippinarum,Ruditapes,Veneridae,Venerida,Bivalvia,Mollusca,Eukaryota
+Ceratostoma,Ceratostoma,Muricidae,Neogastropoda,Gastropoda,Mollusca,Eukaryota
+Geukensia demissa,Geukensia,Mytilidae,Mytiloida,Bivalvia,Mollusca,Eukaryota
+Mytilopsis sallei,Mytilopsis,Dreissenidae,Myida,Bivalvia,Mollusca,Eukaryota
+Teredo,Teredo,Teredinidae,Myida,Bivalvia,Mollusca,Eukaryota
+Theora lubrica,Theora,Semelidae,Cardiida,Bivalvia,Mollusca,Eukaryota
+Acar plicata,Acar,Arcidae,Arcoida,Bivalvia,Mollusca,Eukaryota
+Tenellia adspersa,Tenellia,Trinchesiidae,Nudibranchia,Gastropoda,Mollusca,Eukaryota
+Tritonia plebeia,Tritonia,Tritoniidae,Nudibranchia,Gastropoda,Mollusca,Eukaryota
+Urosalpinx cinerea,Urosalpinx,Muricidae,Neogastropoda,Gastropoda,Mollusca,Eukaryota
+Anomia,Anomia,Anomiidae,Pectinida,Bivalvia,Mollusca,Eukaryota
+Crucibulum spinosum,Crucibulum,Calyptraeidae,Littorinimorpha,Gastropoda,Mollusca,Eukaryota
+Ostrea edulis,Ostrea,Ostreidae,Ostreida,Bivalvia,Mollusca,Eukaryota
+Pinctada margaritifera,Pinctada,Pteriidae,Pterioida,Bivalvia,Mollusca,Eukaryota
+Thecacera pennigera,Thecacera,Polyceridae,Nudibranchia,Gastropoda,Mollusca,Eukaryota
+Adula,Adula,Mytilidae,Mytiloida,Bivalvia,Mollusca,Eukaryota
+Limnoperna fortunei,Limnoperna,Mytilidae,Mytiloida,Bivalvia,Mollusca,Eukaryota
+Nuttallia obscurata,Nuttallia,Psammobiidae,Cardiida,Bivalvia,Mollusca,Eukaryota
+Rattus norvegicus,Rattus,Muridae,Rodentia,Mammalia,Chordata,Eukaryota
+Zalophus californianus,Zalophus,Otariidae,Carnivora,Mammalia,Chordata,Eukaryota
+Lyrodus,Lyrodus,Teredinidae,Myida,Bivalvia,Mollusca,Eukaryota
+Musculista senhousia,Arcuatula,Mytilidae,Mytiloida,Bivalvia,Mollusca,Eukaryota
+Mytilus galloprovincialis,Mytilus,Mytilidae,Mytiloida,Bivalvia,Mollusca,Eukaryota
+Gemma gemma,Gemma,Veneridae,Venerida,Bivalvia,Mollusca,Eukaryota
+Mercenaria mercenaria,Mercenaria,Veneridae,Venerida,Bivalvia,Mollusca,Eukaryota
+Mytella charruana,Mytella,Mytilidae,Mytiloida,Bivalvia,Mollusca,Eukaryota
+Perna viridis,Perna,Mytilidae,Mytiloida,Bivalvia,Mollusca,Eukaryota
+Chama pacifica,Chama,Chamidae,Venerida,Bivalvia,Mollusca,Eukaryota
+Chama macerophylla,Chama,Chamidae,Venerida,Bivalvia,Mollusca,Eukaryota
+Crassostrea virginica,Crassostrea,Ostreidae,Ostreida,Bivalvia,Mollusca,Eukaryota
+Crassostrea ariakensis,Crassostrea,Ostreidae,Ostreida,Bivalvia,Mollusca,Eukaryota
+Lasmigona subviridis,Lasmigona,Unionidae,Unionida,Bivalvia,Mollusca,Eukaryota
+Ostrea,Ostrea,Ostreidae,Ostreida,Bivalvia,Mollusca,Eukaryota
+Pisidium amnicum,Pisidium,Sphaeriidae,Venerida,Bivalvia,Mollusca,Eukaryota
+Pisidium henslowanum,Pisidium,Sphaeriidae,Venerida,Bivalvia,Mollusca,Eukaryota
+Pisidium,Pisidium,Sphaeriidae,Venerida,Bivalvia,Mollusca,Eukaryota
+Pisidium supinum,Pisidium,Sphaeriidae,Venerida,Bivalvia,Mollusca,Eukaryota
+Sphaerium corneum,Sphaerium,Sphaeriidae,Venerida,Bivalvia,Mollusca,Eukaryota
+Tapes,Tapes,Veneridae,Venerida,Bivalvia,Mollusca,Eukaryota
+Tapes,Tapes,Veneridae,Venerida,Bivalvia,Mollusca,Eukaryota
+Tridacna,Tridacna,Cardiidae,Cardiida,Bivalvia,Mollusca,Eukaryota
+Venerupis,Venerupis,Veneridae,Venerida,Bivalvia,Mollusca,Eukaryota
+Littorina littorea,Littorina,Littorinidae,Littorinimorpha,Gastropoda,Mollusca,Eukaryota
+Littorina saxatilis,Littorina,Littorinidae,Littorinimorpha,Gastropoda,Mollusca,Eukaryota
+Rapana venosa,Rapana,Muricidae,Neogastropoda,Gastropoda,Mollusca,Eukaryota
+Batillaria attramentaria,Batillaria,Batillariidae,NA,Gastropoda,Mollusca,Eukaryota
+Boonea,Boonea,Pyramidellidae,NA,Gastropoda,Mollusca,Eukaryota
+Busycotypus canaliculatus,Busycotypus,Melongenidae,Neogastropoda,Gastropoda,Mollusca,Eukaryota
+Ocinebrellus inornatus,Ocinebrellus,Muricidae,Neogastropoda,Gastropoda,Mollusca,Eukaryota
+Myosotella myosotis,Myosotella,Ellobiidae,Ellobiida,Gastropoda,Mollusca,Eukaryota
+Potamothrix bavaricus,Potamothrix,Naididae,Haplotaxida,Clitellata,Annelida,Eukaryota
+Bithynia tentaculata,Bithynia,Bithyniidae,Littorinimorpha,Gastropoda,Mollusca,Eukaryota
+Cipangopaludina chinensis,Cipangopaludina,Viviparidae,Architaenioglossa,Gastropoda,Mollusca,Eukaryota
+Cipangopaludina chinensis,Cipangopaludina,Viviparidae,Architaenioglossa,Gastropoda,Mollusca,Eukaryota
+Cipangopaludina japonica,Cipangopaludina,Viviparidae,Architaenioglossa,Gastropoda,Mollusca,Eukaryota
+Crepidula,Crepidula,Calyptraeidae,Littorinimorpha,Gastropoda,Mollusca,Eukaryota
+Elimia virginica,Elimia,Pleuroceridae,NA,Gastropoda,Mollusca,Eukaryota
+Gillia altilis,Gillia,Lithoglyphidae,Littorinimorpha,Gastropoda,Mollusca,Eukaryota
+Hermissenda crassicornis,Hermissenda,Glaucidae,Nudibranchia,Gastropoda,Mollusca,Eukaryota
+Nassarius,Nassarius,Nassariidae,Neogastropoda,Gastropoda,Mollusca,Eukaryota
+Philine auriformis,Philine,Philinidae,Cephalaspidea,Gastropoda,Mollusca,Eukaryota
+Physella acuta,Physella,Physidae,NA,Gastropoda,Mollusca,Eukaryota
+Pomacea canaliculata,Pomacea,Ampullariidae,Architaenioglossa,Gastropoda,Mollusca,Eukaryota
+Radix auricularia,Radix,Lymnaeidae,NA,Gastropoda,Mollusca,Eukaryota
+Tarebia granifera,Tarebia,Thiaridae,NA,Gastropoda,Mollusca,Eukaryota
+Valvata piscinalis,Valvata,Valvatidae,NA,Gastropoda,Mollusca,Eukaryota
+Viviparus,Viviparus,Viviparidae,Architaenioglossa,Gastropoda,Mollusca,Eukaryota
+Cuthona,Cuthona,Cuthonidae,Nudibranchia,Gastropoda,Mollusca,Eukaryota
+Cumanotus,Cumanotus,Cumanotidae,Nudibranchia,Gastropoda,Mollusca,Eukaryota
+Dendronotus frondosus,Dendronotus,Dendronotidae,Nudibranchia,Gastropoda,Mollusca,Eukaryota
+Eubranchus,Eubranchus,Eubranchidae,Nudibranchia,Gastropoda,Mollusca,Eukaryota
+Eubranchus rupium,Eubranchus,Eubranchidae,Nudibranchia,Gastropoda,Mollusca,Eukaryota
+Glossodoris,Glossodoris,Chromodorididae,Nudibranchia,Gastropoda,Mollusca,Eukaryota
+Okenia,Okenia,Goniodorididae,Nudibranchia,Gastropoda,Mollusca,Eukaryota
+Anguillicola crassus,Anguillicola,Anguillicolidae,Rhabditida,Chromadorea,Nematoda,Eukaryota
+Sporobolus alterniflorus,Sporobolus,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Sporobolus anglicus,Sporobolus,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Sporobolus densiflorus,Sporobolus,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Sporobolus,Sporobolus,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Zizania latifolia,Zizania,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Zostera japonica,Zostera,Zosteraceae,Alismatales,Magnoliopsida,Streptophyta,Eukaryota
+Undaria pinnatifida,Undaria,Alariaceae,Laminariales,Phaeophyceae,NA,Eukaryota
+Achillea ptarmica,Achillea,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Aegopodium podagraria,Aegopodium,Apiaceae,Apiales,Magnoliopsida,Streptophyta,Eukaryota
+Agrostis gigantea,Agrostis,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Agrostis stolonifera,Agrostis,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Alliaria petiolata,Alliaria,Brassicaceae,Brassicales,Magnoliopsida,Streptophyta,Eukaryota
+Allium schoenoprasum,Allium,Amaryllidaceae,Asparagales,Magnoliopsida,Streptophyta,Eukaryota
+Alnus glutinosa,Alnus,Betulaceae,Fagales,Magnoliopsida,Streptophyta,Eukaryota
+Alopecurus carolinianus,Alopecurus,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Alopecurus geniculatus,Alopecurus,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Alopecurus pratensis,Alopecurus,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Alternanthera philoxeroides,Alternanthera,Amaranthaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Amaranthus blitoides,Amaranthus,Amaranthaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Ambrosia psilostachya,Ambrosia,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Ammophila arenaria,Ammophila,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Andropogon virginicus,Andropogon,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Anthriscus caucalis,Anthriscus,Apiaceae,Apiales,Magnoliopsida,Streptophyta,Eukaryota
+Arenaria serpyllifolia,Arenaria,Caryophyllaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Armoracia rusticana,Armoracia,Brassicaceae,Brassicales,Magnoliopsida,Streptophyta,Eukaryota
+Artemisia biennis,Artemisia,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Arundo donax,Arundo,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Atriplex patula,Atriplex,Chenopodiaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Barbarea orthoceras,Barbarea,Brassicaceae,Brassicales,Magnoliopsida,Streptophyta,Eukaryota
+Barbarea vulgaris,Barbarea,Brassicaceae,Brassicales,Magnoliopsida,Streptophyta,Eukaryota
+Batis maritima,Batis,Bataceae,Brassicales,Magnoliopsida,Streptophyta,Eukaryota
+Betula pendula,Betula,Betulaceae,Fagales,Magnoliopsida,Streptophyta,Eukaryota
+Bidens tripartita,Bidens,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Boehmeria cylindrica,Boehmeria,Urticaceae,Rosales,Magnoliopsida,Streptophyta,Eukaryota
+Brachiaria,Brachiaria,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Butomus umbellatus,Butomus,Butomaceae,Alismatales,Magnoliopsida,Streptophyta,Eukaryota
+Cabomba caroliniana,Cabomba,Cabombaceae,Nymphaeales,Magnoliopsida,Streptophyta,Eukaryota
+Callitriche stagnalis,Callitriche,Plantaginaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Campsis radicans,Campsis,Bignoniaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Cannabis sativa,Cannabis,Cannabaceae,Rosales,Magnoliopsida,Streptophyta,Eukaryota
+Capsella bursa-pastoris,Capsella,Brassicaceae,Brassicales,Magnoliopsida,Streptophyta,Eukaryota
+Carex acutiformis,Carex,Cyperaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Carex bushii,Carex,Cyperaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Carex crawei,Carex,Cyperaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Carex disticha,Carex,Cyperaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Carex flacca,Carex,Cyperaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Carex ovalis,Carex,Cyperaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Carpobrotus chilensis,Carpobrotus,Aizoaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Chelidonium majus,Chelidonium,Papaveraceae,Ranunculales,Magnoliopsida,Streptophyta,Eukaryota
+Chenopodium album,Chenopodium,Chenopodiaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Chenopodium,Chenopodium,Chenopodiaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Cirsium palustre,Cirsium,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Clintonia borealis,Clintonia,Liliaceae,Liliales,Magnoliopsida,Streptophyta,Eukaryota
+Commelina communis,Commelina,Commelinaceae,Commelinales,Magnoliopsida,Streptophyta,Eukaryota
+Conium maculatum,Conium,Apiaceae,Apiales,Magnoliopsida,Streptophyta,Eukaryota
+Crataegus douglasii,Crataegus,Rosaceae,Rosales,Magnoliopsida,Streptophyta,Eukaryota
+Cynosurus cristatus,Cynosurus,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Delairea odorata,Delairea,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Dioscorea oppositifolia,Dioscorea,Dioscoreaceae,Dioscoreales,Magnoliopsida,Streptophyta,Eukaryota
+Dryopteris,Dryopteris,Dryopteridaceae,Polypodiales,Polypodiopsida,Streptophyta,Eukaryota
+Echinochloa crus-galli,Echinochloa,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Echinochloa muricata,Echinochloa,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Ellisia nyctelea,Ellisia,Hydrophyllaceae,Boraginales,Magnoliopsida,Streptophyta,Eukaryota
+Epilobium hirsutum,Epilobium,Onagraceae,Myrtales,Magnoliopsida,Streptophyta,Eukaryota
+Epilobium parviflorum,Epilobium,Onagraceae,Myrtales,Magnoliopsida,Streptophyta,Eukaryota
+Festuca rubra,Festuca,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Frangula alnus,Frangula,Rhamnaceae,Rosales,Magnoliopsida,Streptophyta,Eukaryota
+Gleditsia triacanthos,Gleditsia,Fabaceae,Fabales,Magnoliopsida,Streptophyta,Eukaryota
+Glyceria maxima,Glyceria,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Gnaphalium uliginosum,Gnaphalium,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Gypsophila paniculata,Gypsophila,Caryophyllaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Halymenia durvillei,Halymenia,Halymeniaceae,Halymeniales,Florideophyceae,Rhodophyta,Eukaryota
+Hedera helix,Hedera,Araliaceae,Apiales,Magnoliopsida,Streptophyta,Eukaryota
+Helenium flexuosum,Helenium,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Helianthus annuus,Helianthus,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Hordeum jubatum,Hordeum,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Hydrocharis morsus-ranae,Hydrocharis,Hydrocharitaceae,Alismatales,Magnoliopsida,Streptophyta,Eukaryota
+Hydrocotyle umbellata,Hydrocotyle,Araliaceae,Apiales,Magnoliopsida,Streptophyta,Eukaryota
+Hygrophila polysperma,Hygrophila,Acanthaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Impatiens capensis,Impatiens,Balsaminaceae,Ericales,Magnoliopsida,Streptophyta,Eukaryota
+Impatiens glandulifera,Impatiens,Balsaminaceae,Ericales,Magnoliopsida,Streptophyta,Eukaryota
+Imperata cylindrica,Imperata,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Ipomoea hederacea,Ipomoea,Convolvulaceae,Solanales,Magnoliopsida,Streptophyta,Eukaryota
+Iris pseudacorus,Iris,Iridaceae,Asparagales,Magnoliopsida,Streptophyta,Eukaryota
+Juncus articulatus,Juncus,Juncaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Juncus compressus,Juncus,Juncaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Juncus gerardii,Juncus,Juncaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Juncus inflexus,Juncus,Juncaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Lactuca serriola,Lactuca,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Lepidium densiflorum,Lepidium,Brassicaceae,Brassicales,Magnoliopsida,Streptophyta,Eukaryota
+Leucojum aestivum,Leucojum,Amaryllidaceae,Asparagales,Magnoliopsida,Streptophyta,Eukaryota
+Liatris pycnostachya,Liatris,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Ligustrum vulgare,Ligustrum,Oleaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Lomentaria hakodatensis,Lomentaria,Lomentariaceae,Rhodymeniales,Florideophyceae,Rhodophyta,Eukaryota
+Lotus corniculatus,Lotus,Fabaceae,Fabales,Magnoliopsida,Streptophyta,Eukaryota
+Lupinus polyphyllus,Lupinus,Fabaceae,Fabales,Magnoliopsida,Streptophyta,Eukaryota
+Lycopus asper,Lycopus,Lamiaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Lycopus europaeus,Lycopus,Lamiaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Lysimachia nummularia,Lysimachia,Primulaceae,Ericales,Magnoliopsida,Streptophyta,Eukaryota
+Lysimachia vulgaris,Lysimachia,Primulaceae,Ericales,Magnoliopsida,Streptophyta,Eukaryota
+Lythrum salicaria,Lythrum,Lythraceae,Myrtales,Magnoliopsida,Streptophyta,Eukaryota
+Macfadyena,Macfadyena,Bignoniaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Marrubium vulgare,Marrubium,Lamiaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Marsilea quadrifolia,Marsilea,Marsileaceae,Salviniales,Polypodiopsida,Streptophyta,Eukaryota
+Medicago lupulina,Medicago,Fabaceae,Fabales,Magnoliopsida,Streptophyta,Eukaryota
+Mentha aquatica,Mentha,Lamiaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Mentha spicata,Mentha,Lamiaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Mentha x gracilis,Mentha,Lamiaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Mentha x piperita,Mentha,Lamiaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Microstegium vimineum,Microstegium,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Mollugo verticillata,Mollugo,Molluginaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Morus alba,Morus,Moraceae,Rosales,Magnoliopsida,Streptophyta,Eukaryota
+Muhlenbergia racemosa,Muhlenbergia,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Myosotis arvensis,Myosotis,Boraginaceae,Boraginales,Magnoliopsida,Streptophyta,Eukaryota
+Myosotis scorpioides,Myosotis,Boraginaceae,Boraginales,Magnoliopsida,Streptophyta,Eukaryota
+Myosoton aquaticum,Myosoton,Caryophyllaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Najas marina,Najas,Hydrocharitaceae,Alismatales,Magnoliopsida,Streptophyta,Eukaryota
+Najas minor,Najas,Hydrocharitaceae,Alismatales,Magnoliopsida,Streptophyta,Eukaryota
+Nasturtium officinale,Nasturtium,Brassicaceae,Brassicales,Magnoliopsida,Streptophyta,Eukaryota
+Nepeta cataria,Nepeta,Lamiaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Oenothera pilosella,Oenothera,Onagraceae,Myrtales,Magnoliopsida,Streptophyta,Eukaryota
+Ornithogalum umbellatum,Ornithogalum,Hyacinthaceae,Asparagales,Magnoliopsida,Streptophyta,Eukaryota
+Panicum repens,Panicum,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Parthenocissus quinquefolia,Parthenocissus,Vitaceae,Vitales,Magnoliopsida,Streptophyta,Eukaryota
+Phalaris arundinacea,Phalaris,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Phragmites australis,Phragmites,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Picea pungens,Picea,Pinaceae,Pinales,Pinopsida,Streptophyta,Eukaryota
+Plantago lanceolata,Plantago,Plantaginaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Plantago major,Plantago,Plantaginaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Plantago rugelii,Plantago,Plantaginaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Pluchea odorata,Pluchea,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Pluchea odorata,Pluchea,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Pluchea odorata,Pluchea,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Poa annua,Poa,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Poa bulbosa,Poa,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Poa pratensis,Poa,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Poa trivialis,Poa,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Polygonum,Polygonum,Polygonaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Polygonum aviculare,Polygonum,Polygonaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Polygonum,Polygonum,Polygonaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Polygonum,Polygonum,Polygonaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Polygonum cuspidatum,Polygonum,Polygonaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Polygonum,Polygonum,Polygonaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Polygonum,Polygonum,Polygonaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Polygonum ramosissimum,Polygonum,Polygonaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Populus deltoides,Populus,Salicaceae,Malpighiales,Magnoliopsida,Streptophyta,Eukaryota
+Portulaca oleracea,Portulaca,Portulacaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Potamogeton crispus,Potamogeton,Potamogetonaceae,Alismatales,Magnoliopsida,Streptophyta,Eukaryota
+Potentilla norvegica,Potentilla,Rosaceae,Rosales,Magnoliopsida,Streptophyta,Eukaryota
+Prosopis pallida,Prosopis,Fabaceae,Fabales,Magnoliopsida,Streptophyta,Eukaryota
+Prunella vulgaris,Prunella,Lamiaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Puccinellia distans,Puccinellia,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Ranunculus acris,Ranunculus,Ranunculaceae,Ranunculales,Magnoliopsida,Streptophyta,Eukaryota
+Ranunculus bulbosus,Ranunculus,Ranunculaceae,Ranunculales,Magnoliopsida,Streptophyta,Eukaryota
+Ranunculus flammula,Ranunculus,Ranunculaceae,Ranunculales,Magnoliopsida,Streptophyta,Eukaryota
+Ranunculus repens,Ranunculus,Ranunculaceae,Ranunculales,Magnoliopsida,Streptophyta,Eukaryota
+Rhamnus cathartica,Rhamnus,Rhamnaceae,Rosales,Magnoliopsida,Streptophyta,Eukaryota
+Rhizophora mangle,Rhizophora,Rhizophoraceae,Malpighiales,Magnoliopsida,Streptophyta,Eukaryota
+Rhynchospora nitens,Rhynchospora,Cyperaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Rorippa sylvestris,Rorippa,Brassicaceae,Brassicales,Magnoliopsida,Streptophyta,Eukaryota
+Rumex acetosella,Rumex,Polygonaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Rumex crispus,Rumex,Polygonaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Rumex longifolius,Rumex,Polygonaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Rumex obtusifolius,Rumex,Polygonaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Sagina procumbens,Sagina,Caryophyllaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Salix alba,Salix,Salicaceae,Malpighiales,Magnoliopsida,Streptophyta,Eukaryota
+Salix exigua,Salix,Salicaceae,Malpighiales,Magnoliopsida,Streptophyta,Eukaryota
+Salix fragilis,Salix,Salicaceae,Malpighiales,Magnoliopsida,Streptophyta,Eukaryota
+Salix purpurea,Salix,Salicaceae,Malpighiales,Magnoliopsida,Streptophyta,Eukaryota
+Salix x pendulina,Salix,Salicaceae,Malpighiales,Magnoliopsida,Streptophyta,Eukaryota
+Salix,Salix,Salicaceae,Malpighiales,Magnoliopsida,Streptophyta,Eukaryota
+Salsola,Salsola,Chenopodiaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Salvinia minima,Salvinia,Salviniaceae,Salviniales,Polypodiopsida,Streptophyta,Eukaryota
+Sapium,Sapium,Euphorbiaceae,Malpighiales,Magnoliopsida,Streptophyta,Eukaryota
+Solanum dulcamara,Solanum,Solanaceae,Solanales,Magnoliopsida,Streptophyta,Eukaryota
+Solidago sempervirens,Solidago,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Sonchus arvensis,Sonchus,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Sonchus arvensis subsp. uliginosus,Sonchus,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Sonchus asper,Sonchus,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Sorghum halepense,Sorghum,Poaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Sparganium androcladum,Sparganium,Typhaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Sparganium emersum,Sparganium,Typhaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Sparganium glomeratum,Sparganium,Typhaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Spirodela polyrhiza,Spirodela,Araceae,Alismatales,Magnoliopsida,Streptophyta,Eukaryota
+Stachys palustris,Stachys,Lamiaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Tamarix,Tamarix,Tamaricaceae,Caryophyllales,Magnoliopsida,Streptophyta,Eukaryota
+Tradescantia pallida,Tradescantia,Commelinaceae,Commelinales,Magnoliopsida,Streptophyta,Eukaryota
+Trapa natans,Trapa,Lythraceae,Myrtales,Magnoliopsida,Streptophyta,Eukaryota
+Trifolium hybridum,Trifolium,Fabaceae,Fabales,Magnoliopsida,Streptophyta,Eukaryota
+Trillium erectum,Trillium,Melanthiaceae,Liliales,Magnoliopsida,Streptophyta,Eukaryota
+Typha angustifolia,Typha,Typhaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Typha latifolia,Typha,Typhaceae,Poales,Magnoliopsida,Streptophyta,Eukaryota
+Ulmus americana,Ulmus,Ulmaceae,Rosales,Magnoliopsida,Streptophyta,Eukaryota
+Veronica beccabunga,Veronica,Plantaginaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Veronica serpyllifolia,Veronica,Plantaginaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Viburnum opulus var. americanum,Viburnum,Adoxaceae,Dipsacales,Magnoliopsida,Streptophyta,Eukaryota
+Viola blanda,Viola,Violaceae,Malpighiales,Magnoliopsida,Streptophyta,Eukaryota
+Viola blanda var. palustriformis,Viola,Violaceae,Malpighiales,Magnoliopsida,Streptophyta,Eukaryota
+Wisteria frutescens,Wisteria,Fabaceae,Fabales,Magnoliopsida,Streptophyta,Eukaryota
+Xanthium strumarium,Xanthium,Asteraceae,Asterales,Magnoliopsida,Streptophyta,Eukaryota
+Bothriocephalus,Bothriocephalus,Bothriocephalidae,Bothriocephalidea,Cestoda,Platyhelminthes,Eukaryota
+Dactylogyrus amphibothrium,Dactylogyrus,Dactylogyridae,Dactylogyridea,Monogenea,Platyhelminthes,Eukaryota
+Dactylogyrus hemiamphibothrium,Dactylogyrus,Dactylogyridae,Dactylogyridea,Monogenea,Platyhelminthes,Eukaryota
+Dugesia,Dugesia,Dugesiidae,Tricladida,Rhabditophora,Platyhelminthes,Eukaryota
+Ichthyocotylurus pileatus,Ichthyocotylurus,Strigeidae,Diplostomida,Trematoda,Platyhelminthes,Eukaryota
+Neascus,Neascus,Diplostomidae,Diplostomida,Trematoda,Platyhelminthes,Eukaryota
+Scolex pleuronectis,Scolex,NA,Tetraphyllidea,Cestoda,Platyhelminthes,Eukaryota
+Timoniella,Timoniella,Cryptogonimidae,Opisthorchiida,Trematoda,Platyhelminthes,Eukaryota
+Trochammina hadai,Trochammina,Trochamminidae,Textulariida,NA,Foraminifera,Eukaryota
+Acineta,Acineta,Acinetidae,Endogenida,Phyllopharyngea,Ciliophora,Eukaryota
+Corythionella,Corythionella,Cyphoderiidae,Euglyphida,NA,Imbricatea,Eukaryota
+Psammonobiotus communis,NA,NA,NA,NA,NA,NA
+Psammonobiotus dziwnowi,NA,NA,NA,NA,NA,NA
+Psammonobiotus linearis,NA,NA,NA,NA,NA,NA
+Trypanosoma,Trypanosoma,Trypanosomatidae,Trypanosomatida,Kinetoplastea,Euglenozoa,Eukaryota
+Varanus indicus,Varanus,Varanidae,Squamata,Lepidosauria,Chordata,Eukaryota
+Caiman crocodilus,Caiman,Alligatoridae,Crocodylia,NA,Chordata,Eukaryota
+Cliona,Cliona,Clionaidae,Clionaida,Demospongiae,Porifera,Eukaryota
+Gelliodes,Gelliodes,Niphatidae,Haplosclerida,Demospongiae,Porifera,Eukaryota
+Mycale,Mycale,Mycalidae,Poecilosclerida,Demospongiae,Porifera,Eukaryota
+Mycale parishii,Mycale,Mycalidae,Poecilosclerida,Demospongiae,Porifera,Eukaryota
+Sigmadocia caerulea,Haliclona,Chalinidae,Haplosclerida,Demospongiae,Porifera,Eukaryota
+Suberites,Suberites,Suberitidae,Suberitida,Demospongiae,Porifera,Eukaryota
+Cliona celata,Cliona,Clionaidae,Clionaida,Demospongiae,Porifera,Eukaryota
+Haliclona,Haliclona,Chalinidae,Haplosclerida,Demospongiae,Porifera,Eukaryota
+Mycale,Mycale,Mycalidae,Poecilosclerida,Demospongiae,Porifera,Eukaryota
+Prosuberites,Prosuberites,Suberitidae,Suberitida,Demospongiae,Porifera,Eukaryota
+Macrobiotus hufelandi,Macrobiotus,Macrobiotidae,Parachela,Eutardigrada,Tardigrada,Eukaryota
+Milnesium tardigradum,Milnesium,Milnesiidae,Apochela,Eutardigrada,Tardigrada,Eukaryota
+Didemnum,Didemnum,Didemnidae,Aplousobranchia,Ascidiacea,Chordata,Eukaryota
+Polyandrocarpa zorritensis,Polyandrocarpa,Styelidae,Stolidobranchia,Ascidiacea,Chordata,Eukaryota
+Ascidia sydneiensis,Ascidia,Ascidiidae,Phlebobranchia,Ascidiacea,Chordata,Eukaryota
+Didemnum candidum,Didemnum,Didemnidae,Aplousobranchia,Ascidiacea,Chordata,Eukaryota
+Phallusia nigra,Phallusia,Ascidiidae,Phlebobranchia,Ascidiacea,Chordata,Eukaryota
+Botrylloides diegensis,Botrylloides,Styelidae,Stolidobranchia,Ascidiacea,Chordata,Eukaryota
+Botrylloides,Botrylloides,Styelidae,Stolidobranchia,Ascidiacea,Chordata,Eukaryota
+Botryllus,Botryllus,Styelidae,Stolidobranchia,Ascidiacea,Chordata,Eukaryota
+Corella inflata,Corella,Corellidae,Phlebobranchia,Ascidiacea,Chordata,Eukaryota
+Corella willmeriana,Corella,Corellidae,Phlebobranchia,Ascidiacea,Chordata,Eukaryota
+Microcosmus squamiger,Microcosmus,Pyuridae,Stolidobranchia,Ascidiacea,Chordata,Eukaryota
+Styela canopus,Styela,Styelidae,Stolidobranchia,Ascidiacea,Chordata,Eukaryota
+Symplegma brakenhielmi,Symplegma,Styelidae,Stolidobranchia,Ascidiacea,Chordata,Eukaryota
+Sarotherodon melanotheron,Sarotherodon,Cichlidae,Cichliformes,Actinopteri,Chordata,Eukaryota
+Tilapia,Tilapia,Cichlidae,Cichliformes,Actinopteri,Chordata,Eukaryota
+Acanthogobius flavimanus,Acanthogobius,Gobiidae,Gobiiformes,Actinopteri,Chordata,Eukaryota
+Cephalopholis argus,Cephalopholis,Serranidae,Perciformes,Actinopteri,Chordata,Eukaryota
+Lutjanus kasmira,Lutjanus,Lutjanidae,Lutjaniformes,Actinopteri,Chordata,Eukaryota
+Oreochromis aureus,Oreochromis,Cichlidae,Cichliformes,Actinopteri,Chordata,Eukaryota
+Tridentiger trigonocephalus,Tridentiger,Gobiidae,Gobiiformes,Actinopteri,Chordata,Eukaryota
+Gonodactylaceus falcatus,Gonodactylaceus,Gonodactylidae,Stomatopoda,Malacostraca,Arthropoda,Eukaryota
+Lutjanus fulvus,Lutjanus,Lutjanidae,Lutjaniformes,Actinopteri,Chordata,Eukaryota
+Zebrasoma velifer,Zebrasoma,Acanthuridae,Acanthuriformes,Actinopteri,Chordata,Eukaryota
+Acanthurus maculiceps,Acanthurus,Acanthuridae,Acanthuriformes,Actinopteri,Chordata,Eukaryota
+Alosa aestivalis,Alosa,Clupeidae,Clupeiformes,Actinopteri,Chordata,Eukaryota
+Alosa pseudoharengus,Alosa,Clupeidae,Clupeiformes,Actinopteri,Chordata,Eukaryota
+Ameiurus catus,Ameiurus,Ictaluridae,Siluriformes,Actinopteri,Chordata,Eukaryota
+Anchoa lyolepis,Anchoa,Engraulidae,Clupeiformes,Actinopteri,Chordata,Eukaryota
+Apeltes quadracus,Apeltes,Gasterosteidae,Perciformes,Actinopteri,Chordata,Eukaryota
+Archoplites interruptus,Archoplites,Centrarchidae,Centrarchiformes,Actinopteri,Chordata,Eukaryota
+Astronotus ocellatus,Astronotus,Cichlidae,Cichliformes,Actinopteri,Chordata,Eukaryota
+Balistes polylepis,Balistes,Balistidae,Tetraodontiformes,Actinopteri,Chordata,Eukaryota
+Cichla ocellaris,Cichla,Cichlidae,Cichliformes,Actinopteri,Chordata,Eukaryota
+Cichlasoma bimaculatum,Cichlasoma,Cichlidae,Cichliformes,Actinopteri,Chordata,Eukaryota
+Cichlasoma,Cichlasoma,Cichlidae,Cichliformes,Actinopteri,Chordata,Eukaryota
+Cittarium pica,Cittarium,Tegulidae,Trochida,Gastropoda,Mollusca,Eukaryota
+Clarias batrachus,Clarias,Clariidae,Siluriformes,Actinopteri,Chordata,Eukaryota
+Enneacanthus gloriosus,Enneacanthus,Centrarchidae,Centrarchiformes,Actinopteri,Chordata,Eukaryota
+Esox lucius,Esox,Esocidae,Esociformes,Actinopteri,Chordata,Eukaryota
+Esox niger,Esox,Esocidae,Esociformes,Actinopteri,Chordata,Eukaryota
+Fundulus diaphanus,Fundulus,Fundulidae,Cyprinodontiformes,Actinopteri,Chordata,Eukaryota
+Hemichromis letourneuxi,Hemichromis,Cichlidae,Cichliformes,Actinopteri,Chordata,Eukaryota
+Heros severus,Heros,Cichlidae,Cichliformes,Actinopteri,Chordata,Eukaryota
+Hoplosternum littorale,Hoplosternum,Callichthyidae,Siluriformes,Actinopteri,Chordata,Eukaryota
+Hypomesus nipponensis,Hypomesus,Osmeridae,Osmeriformes,Actinopteri,Chordata,Eukaryota
+Ictalurus punctatus,Ictalurus,Ictaluridae,Siluriformes,Actinopteri,Chordata,Eukaryota
+Lepomis humilis,Lepomis,Centrarchidae,Centrarchiformes,Actinopteri,Chordata,Eukaryota
+Lepomis microlophus,Lepomis,Centrarchidae,Centrarchiformes,Actinopteri,Chordata,Eukaryota
+Leuciscus idus,Leuciscus,Leuciscidae,Cypriniformes,Actinopteri,Chordata,Eukaryota
+Limia vittata,Limia,Poeciliidae,Cyprinodontiformes,Actinopteri,Chordata,Eukaryota
+Limnophila,Limnophila,Plantaginaceae,Lamiales,Magnoliopsida,Streptophyta,Eukaryota
+Lucania parva,Lucania,Fundulidae,Cyprinodontiformes,Actinopteri,Chordata,Eukaryota
+Misgurnus anguillicaudatus,Misgurnus,Cobitidae,Cypriniformes,Actinopteri,Chordata,Eukaryota
+Morone americana,Morone,Moronidae,NA,Actinopteri,Chordata,Eukaryota
+Mylocheilus caurinus,Mylocheilus,Leuciscidae,Cypriniformes,Actinopteri,Chordata,Eukaryota
+Notropis buchanani,Notropis,Leuciscidae,Cypriniformes,Actinopteri,Chordata,Eukaryota
+Noturus insignis,Noturus,Ictaluridae,Siluriformes,Actinopteri,Chordata,Eukaryota
+Oncorhynchus kisutch,Oncorhynchus,Salmonidae,Salmoniformes,Actinopteri,Chordata,Eukaryota
+Oncorhynchus mykiss irideus,Oncorhynchus,Salmonidae,Salmoniformes,Actinopteri,Chordata,Eukaryota
+Oncorhynchus nerka,Oncorhynchus,Salmonidae,Salmoniformes,Actinopteri,Chordata,Eukaryota
+Oncorhynchus tshawytscha,Oncorhynchus,Salmonidae,Salmoniformes,Actinopteri,Chordata,Eukaryota
+Oreochromis macrochir,Oreochromis,Cichlidae,Cichliformes,Actinopteri,Chordata,Eukaryota
+Oreochromis niloticus,Oreochromis,Cichlidae,Cichliformes,Actinopteri,Chordata,Eukaryota
+Orthodon microlepidotus,Orthodon,Leuciscidae,Cypriniformes,Actinopteri,Chordata,Eukaryota
+Osteoglossum bicirrhosum,Osteoglossum,Osteoglossidae,Osteoglossiformes,Actinopteri,Chordata,Eukaryota
+Oxydoras niger,Oxydoras,Doradidae,Siluriformes,Actinopteri,Chordata,Eukaryota
+Parachromis managuensis,Parachromis,Cichlidae,Cichliformes,Actinopteri,Chordata,Eukaryota
+Petromyzon marinus,Petromyzon,Petromyzontidae,Petromyzontiformes,Hyperoartia,Chordata,Eukaryota
+Phenacobius mirabilis,Phenacobius,Leuciscidae,Cypriniformes,Actinopteri,Chordata,Eukaryota
+Piaractus brachypomus,Piaractus,Serrasalmidae,Characiformes,Actinopteri,Chordata,Eukaryota
+Plecoglossus altivelis,Plecoglossus,Plecoglossidae,Osmeriformes,Actinopteri,Chordata,Eukaryota
+Poecilia latipinna,Poecilia,Poeciliidae,Cyprinodontiformes,Actinopteri,Chordata,Eukaryota
+Poecilia vivipara,Poecilia,Poeciliidae,Cyprinodontiformes,Actinopteri,Chordata,Eukaryota
+Proterorhinus semilunaris,Proterorhinus,Gobiidae,Gobiiformes,Actinopteri,Chordata,Eukaryota
+Pygocentrus nattereri,Pygocentrus,Serrasalmidae,Characiformes,Actinopteri,Chordata,Eukaryota
+Salmo trutta x Salvelinus fontinalis,NA,Salmonidae,Salmoniformes,Actinopteri,Chordata,Eukaryota
+Salvelinus fontinalis,Salvelinus,Salmonidae,Salmoniformes,Actinopteri,Chordata,Eukaryota
+Sander lucioperca,Sander,Percidae,Perciformes,Actinopteri,Chordata,Eukaryota
+Tilapia,Tilapia,Cichlidae,Cichliformes,Actinopteri,Chordata,Eukaryota
+Penaeus monodon-type Baculovirus,NA,NA,NA,NA,NA,NA
+WSBV,NA,NA,NA,NA,NA,NA
+Aeromonas salmonicida,Aeromonas,Aeromonadaceae,Aeromonadales,Gammaproteobacteria,Proteobacteria,Bacteria
+Novirhabdovirus sp.,NA,NA,NA,NA,NA,NA
+Piscirickettsia salmonis,Piscirickettsia,Piscirickettsiaceae,Thiotrichales,Gammaproteobacteria,Proteobacteria,Bacteria
+Ranavirus sp.,Ranavirus,Iridoviridae,Pimascovirales,Megaviricetes,Nucleocytoviricota,
+Renibacterium salmoninarum,Renibacterium,Micrococcaceae,Micrococcales,Actinobacteria,Actinobacteria,Bacteria
+Rhabdovirus carpio,Sprivivirus,Rhabdoviridae,Mononegavirales,Monjiviricetes,Negarnaviricota,
