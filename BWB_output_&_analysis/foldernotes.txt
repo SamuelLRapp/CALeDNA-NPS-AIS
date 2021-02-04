@@ -1,0 +1,9 @@
+This directory holds the csv file that ran through the NCBI coverage matrix under the following paramters: ncbi_SPP_GENUS_comma_sep_list_with_checking_spelling_synonms. It was the species genus GNR resolve output from Taxize_clean.R, with checking for spelling synonyms and [ORGN] on, and [GENE] off
+
+Now I am writing new code to create:
+1. Summary data for each barcode searched 
+2. Venn diagrams to see where there is overlap in organism hits 
+
+For Ven Diagrams: 
+https://www.r-graph-gallery.com/14-venn-diagramm.html 
+https://cran.r-project.org/web/packages/VennDiagram/VennDiagram.pdf 
