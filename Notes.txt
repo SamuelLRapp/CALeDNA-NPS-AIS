@@ -3,3 +3,13 @@ I'm not exactly sure why but it maybe due to gnr_resolve using a 2012 NCBI taxon
 2. I run gnr_resolve on the original species list given to us so the names being given to tax_name are properly formatted. For example the first entry in the google sheet: Codium fragile ssp tomentosoides is unidentifiable to tax_name, unless converted to 'Codium fragile subsp. tomentosoides' by gnr_resolve first.
 3. I hope that the google sheet only starts with genus species content or the tax_name stuff in the for loops may get fucked up.
 4. Tax_name seems to be unable to handle clades. Example: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi. Tax_name(sargassum muticum) can ID genus, family, order, class but (see link) when it bumps into a clade in the taxonomic backbone it is unable to find phylum and domain afterwards, even though they exist (see link for proof)
+-----
+1/31/2021
+1. The taxonomic rank "domain" isn't finding any hits for some reason. Classifications up to phylum find hits, and classifications inbetween phylum and domain like kingdom also find hits. Does CALeDNA's structure care about having more taxonomic ranks or only the taxonomic ranks: domain;phylum;class;order;family;genus;genus_species
+2. Where there are gaps/missing taxonomic ranks should the formatting be: Chordata;NA;Passeriformes;NA; or Chordata;;Passeriformes;; 
+3. Speed test with ~716. 4minutes with api-key. Code failed somewhere
+4. Sometimes tax_cut wants me to manually pick when there are multiple paths to go down. Happened twice out of the full list.
+4. Now that we can produce this data, what do we want to do with it?
+	1. Run it against our tool! (Need to use Christie's CSV converter and put an API key into my local computer then hope the rShiny widget can take in X number of entries lmao
+		1.  Can run both the (pre and post) gnr_resolve species-genus list on CRUX. Taxize should handle other parts of that
+		2.  Run NCBi search with (pre/post gnr_resolve species-genus list, then gnr_resolve genus list, and gnr_resolve family list
