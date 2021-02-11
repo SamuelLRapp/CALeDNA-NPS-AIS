@@ -6,6 +6,44 @@ OTL_dataframe  <- read.csv(file = "NPS_AIS_GENUS_taxon_names_according_to_OTL.tx
 CoverageMatrix_NCBI_genus_DF<- read.csv(file = "CovM_NCBI_genus_NPS.csv")
 Output_DF <- CoverageMatrix_NCBI_genus_DF
 
+write.csv(Output_DF, file = "OTT_IDD_Annotated", row.names = FALSE)
+
+
+functionTEST <-Annotated_OTL_IDS(OTL_dataframe, CoverageMatrix_NCBI_genus_DF)
+
+MisseedOTLvalues2<-compare_firstC_in_DFs(Output_DF, functiionTEST)
+print(compare_firstC_in_DFs(Output_DF, functiionTEST))
+print(compare_firstC_in_DFs(MisseedOTLvalues2, MisseedOTLvalues))
+
+Annotated_OTL_IDS <- function(OTL_df, BWB_df) #takes in OTL_df dataframe, BWB dataframe and outputs the BWB dataframe with OTL names
+{
+  rows_to_remove <- c()
+  Output_DF <-BWB_df
+    for(i in 1:nrow(Output_DF))
+    {
+      needle <- Output_DF[i,1]
+      foundHaystack <- "FALSE"
+        for(j in 1:nrow(OTL_df))
+        {
+          haystack<-OTL_dataframe[j,1]
+            if(grepl(needle, haystack, fixed = TRUE) == T)
+            {
+              haystack <- trimws(haystack, "r")
+              Output_DF[i,1] <- haystack
+              foundHaystack <-"TRUE"
+            }
+        }
+      
+      if(foundHaystack == "FALSE") #no OTL value found
+      { 
+        rows_to_remove <- c(rows_to_remove, i)
+      }
+    }
+  Output_DF <- Output_DF[-rows_to_remove,]
+  Output_DF
+}
+
+
 rows_to_remove <- c()
 for (i in 1:nrow(Output_DF)) {
   needle <- Output_DF[i,1]
@@ -26,72 +64,31 @@ for (i in 1:nrow(Output_DF)) {
   }
 }
 
-Output_DF <- Output_DF[-rows_to_remove,]#delete rows where CovMatrixvalue wasn't replaced,
-#note there are also Out
+Output_DF <- Output_DF[-rows_to_remove,]#delete rows where CovMatrixvalue wasn't replaced, ie haystack not found
+#some of those values are due to 
 
-needle <-"Cordylophora"
-holder <- "x"
-for(j in 1:nrow(OTL_dataframe))
+compare_firstC_in_DFs <- function(OTU_longerlist,ShorterList)
 {
-  haystack<-OTL_dataframe[j,1]
-  # print(haystack)
-  if(grepl(needle, haystack, fixed = TRUE) == T)
+  output <- c() 
+  for(i in 1:nrow(OTU_longerlist))
   {
-    #haystack <- trimws(haystack, "r")
-    print(haystack)
-    #Output_DF[i,1] <- haystack
-    #  print("found")
-    #
-    holder <- haystack
-    foundHaystack <-"TRUE"
-  }
-}
-
-#psuedo codee
-#forloop going through Output_DF
-#get
-#
-#inner forloop going through OTL_dataframe 
-#if find grep match replace Output_DF[i,1] with OTL_dataframe[j,1]
-#found anything = true
-
-#if found anything == false
-#delete row
-#found anything = false turned
-
-write.csv(Output_DF, file = "OTT_IDD_Annotated", row.names = FALSE)
-#to download full dataset
-write.csv(taxonomy_dataframe, file = "taxonomy_dataframeRCODE_selected_homonym", row.names= FALSE)
-
-chars <- OTL_dataframe[6,1]#"MRCA of taxa in Boehmeria ott594987"
-grepl("Boehmeria", chars, fixed = TRUE)
-
-searchOrganism <- sub(" .*", "", OTL_dataframe[1,1]) 
-data_frame_Row_columns <- which(Output_DF == searchOrganism, arr.ind = TRUE)
-
-###take OTL_dataframe values and find them inside CoverageMatrix_NCBI_genus_DF, 
-for(i in OTL_dataframe)
-{
-  searchOrganism <- sub(" .*", "", OTL_dataframe[3,1]) 
+    found <- "FALSE"
+    value <-trimws(OTU_longerlist[i,1],"r") #trim whitespace that OTL nexus files create when imported into R
   
-  #can add a check for MRCA values
-  if(searchOrganism == "MRCA")
-  {
-    print("false")  #somee grep to look for characters at end.
-  }
-  
-  data_frame_Row_columns <- which(Output_DF == searchOrganism, arr.ind = TRUE)
-  if(nrow(data_frame_Row_columns)!=1)
-  {
-    print("not 1 row")
-  }else
+    for(j in 1:nrow(ShorterList))
     {
-      print("one row")
-      
+      if(value == ShorterList[j,1])
+      {
+        found <- "TRUE" #there was a match in there!
+      }
     }
+    
+    if(found == "FALSE") #no match was found to 'value'
+    {
+      output <- c(output, value)
+    }
+    }
+  output
 }
 
-##compare 
 
-#add barcode counts, or just replace the CM namee with the OTL name! 
-#if nothing is found in OTL then delete the row in CM
