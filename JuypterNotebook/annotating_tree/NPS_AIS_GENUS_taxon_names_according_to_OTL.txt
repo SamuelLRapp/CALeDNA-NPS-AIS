@@ -1,0 +1,479 @@
+Sapium ott363568      
+Rhizophora ott81498      
+Populus ott530178      
+Salix ?genus in kingdom Archaeplastida? ott458856  
+MRCA of taxa in Viola ott295597  
+MRCA of taxa in Morus ott658501  
+MRCA of taxa in Boehmeria ott594987  
+Cannabis ott84008      
+Ulmus ?genus in kingdom Archaeplastida? ott94969  
+MRCA of taxa in Frangula ott714689  
+Potentilleae ott891491 MRCA of taxa in Potentilla ott187939
+MRCA of taxa in Crataegus ott842028  
+Betula ott267715      
+Alnus ott791135      
+Trifolium ?genus in kingdom Archaeplastida? ott935477  
+Medicago ott1086823      
+Wisteria ott489481      
+Loteae ott1039849 MRCA of taxa in Lotus ott879017
+Lupinus ott878988      
+Gleditsia ott677309      
+Capsella ott833648      
+Armoracia ott309270      
+MRCA of taxa in Nasturtium ott556233  
+Barbarea ott35918      
+Alliaria ott647374      
+Batis ?genus in kingdom Archaeplastida? ott532270  
+Oenothera ott277109      
+Epilobieae ott5747162 MRCA of taxa in Epilobium ott139464
+Trapa ott17303      
+Lythrum ott886850      
+MRCA of taxa in Parthenocissus ott329909  
+MRCA of taxa in Myriophyllum ott1009624  
+Plantago ott609811      
+Callitriche ott1080799      
+Veronica ott507032      
+Limnophila ?genus in kingdom Archaeplastida? ott195237  
+Campsis ott1069509      
+MRCA of taxa in Mentha ott55626  
+Nepeta ott314683      
+Lycopus ?genus in kingdom Archaeplastida? ott304968  
+Prunella ?genus in kingdom Archaeplastida? ott314693  
+Marrubium ott82492      
+Stachydeae ott534796 MRCA of taxa in Stachys ott868253
+Hygrophila ?genus in kingdom Archaeplastida? ott430387  
+Ligustrum ott597438      
+Ellisia ?genus in kingdom Archaeplastida? ott1052573  
+Myosotis ott82995      
+Ipomoea ott494853      
+Solanum ott1020645      
+Sonchus ott761940      
+Lactuca ott515705      
+Polydora ?genus in kingdom Archaeplastida? ott648634  
+Bidens ott759041      
+Ambrosia ott601709      
+Helianthus ott515718      
+Xanthium ott217669      
+Dugesia ?genus in kingdom Archaeplastida? ott750182  
+Liatris ott509201      
+Helenium ott661684      
+Pluchea ott1083098      
+Delairea ott1004957      
+Achillea ott828101      
+Artemisia ott465444      
+MRCA of taxa in Solidago ott872351  
+Gnaphalium ott464144      
+Cirsium ott70338      
+Nymphoides ott128308      
+Conium ott1001044      
+Aegopodium ott626557      
+Anthriscus ott105025      
+Hedera ?genus in kingdom Archaeplastida? ott524077  
+Hydrocotyle ott2500      
+Viburnum ott757503      
+MRCA of taxa in Lysimachia ott383201  
+Impatiens ott928414      
+Gypsophila ott28652      
+Arenaria ?genus in kingdom Archaeplastida? ott842196  
+Myosoton ott689113      
+Sagina ott459770      
+Salsola ott675985      
+Atriplex ott892390      
+Chenopodium ott892400      
+Amaranthus ott317808      
+Alternanthera ott202139      
+Portulaca ott63152      
+Mollugo ott584118      
+Diplosoma ?genus in kingdom Archaeplastida? ott207879  
+Carpobrotus ott973287      
+Okenia ?genus in kingdom Archaeplastida? ott828325  
+Polygonum ott43733      
+Rumex ott904386      
+Tamarix ott941999      
+MRCA of taxa in Ranunculus ott387812  
+Chelidonium ?genus in kingdom Archaeplastida? ott957281  
+MRCA of taxa in Tradescantia ott877742  
+Commelina ott865574      
+Pontederiaceae ott399488 MRCA of taxa in Pontederia ott925567
+Glyceria ott1019667      
+Zizania ott6052      
+Puccinellia ott591700      
+Poa ott985636      
+Alopecurus ott592847      
+Loliinae ott107346 MRCA of taxa in Festuca ott105596
+Cynosurus ott603860      
+Agrostis ott765663      
+Ammophila ?genus in kingdom Archaeplastida? ott345181  
+Phalaris ott651214      
+Hordeum ott493874      
+Echinochloa ott911853      
+Brachiaria ott861075      
+Sorghum ott553001      
+Microstegium ott100202      
+Andropogon ott1040674      
+Muhlenbergia ott739168      
+Phragmites ott651210      
+Arundo ott659311      
+Juncus ott545838      
+Carex ott8151      
+Rhynchospora ott267277      
+Typha ott613197      
+Sparganium ott928468      
+Allium ott781603      
+Leucojum ott779385      
+Ornithogalum ott29643      
+Iris ?genus in kingdom Archaeplastida? ott229529  
+Tritonia ?genus in kingdom Archaeplastida? ott922140  
+Trillium ott76108      
+Clintonia ott512520      
+Dioscorea ott216462      
+Spirodela ott431386      
+Pistia ott431396      
+MRCA of taxa in Egeria ott510834  
+Najas ?genus in kingdom Archaeplastida? ott785528  
+Hydrilla ott332058      
+Hydrocharis ?genus in kingdom Archaeplastida? ott40116  
+Butomus ott1027656      
+Potamogeton ott1048840      
+Zosteraceae ott637476 MRCA of taxa in Zostera ott637473
+Cabomba ott10947      
+Picea ott517942      
+MRCA of taxa in Dryopteris ott41618  
+Marsilea ott164371      
+Salvinia ?genus in kingdom Archaeplastida? ott1088898  
+Mytilopsis ?genus in kingdom Archaeplastida? ott3855889  
+Nitellopsis ott589054      
+Ulva ott951293      
+Cladophora ott296540      
+Dictyosphaeria ott380779      
+Caulerpa ott858052      
+Codium ott900417      
+Avrainvillea ott364813      
+Bryopsis ott59787      
+Polysiphonia ott674045      
+Grateloupia ?genus in kingdom Archaeplastida? ott880575  
+Lomentaria ott209224      
+MRCA of taxa in Gracilaria ott354216  
+Hypnea ott935814      
+Bonnemaisonia ott813599      
+Neosiphonia ?genus in kingdom Archaeplastida? ott832954  
+Acanthophora ?genus in kingdom Archaeplastida? ott413613  
+Antithamnionella ott1037139      
+Kappaphycus ott1048640      
+Halymenia ott733207      
+Caulacanthus ott409808      
+Antithamnion ott878963      
+Asparagopsis ott813597      
+Heterosiphonia ott715237      
+Bangia ott864267      
+Chroodactylon ott94100      
+MRCA of taxa in Chaetoceros ott1075856  
+Stephanodiscus ott422805      
+Cyclotella ott422797      
+Actinocyclus ?genus in subkingdom SAR? ott1075852  
+Skeletonema ott569303      
+Diatoma ott621376      
+Thalassiosira ?genus in class Bacillariophyceae? ott5251200  
+Platichthys ?genus in subkingdom SAR? ott8030313  
+Sargassum ott1022964      
+Fucus ?genus in subkingdom SAR? ott466981  
+Macrocystis ott753589      
+Undaria ?genus in subkingdom SAR? ott495530  
+Microspongium ott216054      
+Sphacelaria ott213048      
+Aureoumbra ott533287      
+Aureococcus ott533289      
+Trochammina ott781935      
+Corythionella ott1029966      
+Acineta ?genus in subkingdom SAR? ott29782  
+Orthodon ?genus in subkingdom SAR? ott2825679  
+MRCA of taxa in Alexandrium ott643103  
+Prorocentrum ott797787      
+Gymnodinium ott274333      
+Hymenomonas ott252500      
+MRCA of taxa in Rattus ott271578  
+Zalophus ott749640      
+Cygnus ott140298      
+Caiman ott335589      
+Varanus ott713772      
+Bufo ott187219      
+Phenacobius ott636315      
+Mylocheilus ott358408      
+MRCA of taxa in Scardinius ott221708  
+Leuciscus ott458413      
+Tinca ott753549      
+Hypophthalmichthys ott429092      
+Mylopharyngodon ott837015      
+Ctenopharyngodon ott1005942      
+Cyprinus ott429094      
+Danio ott1005927      
+MRCA of taxa in Misgurnus ott1058127  
+MRCA of taxa in Oxydoras ott842277  
+Noturus ott357170      
+Ictalurus ott701512      
+Ameiurus ott687155      
+Clariidae ott828985 MRCA of taxa in Clarias ott240810
+Hoplosternum ott64010      
+Piaractus ott24679      
+MRCA of taxa in Pygocentrus ott603563  
+Dorosoma ott681329      
+Alosa ott272032      
+MRCA of taxa in Anchoa ott788271  
+Oncorhynchus ?genus in Opisthokonta? ott739931   
+MRCA of taxa in Salvelinus ott688331  
+Salmo ott982359      
+Esox ott216166      
+Osmerus ott36124      
+Hypomesus ott45215      
+Plecoglossus ott736001      
+Astronotus ott952934      
+Parachromis ott295716      
+Heros ott870667      
+Cichla ott356757      
+MRCA of taxa in Tilapia ott288087  
+MRCA of taxa in Oreochromis ott336599  
+Hemichromis ott312267      
+Limia ott587129      
+MRCA of taxa in Gambusia ott617459  
+Belonesox ott913304      
+Lucania ott84264      
+MRCA of taxa in Alepes ott705019  
+Monopterus ott765109      
+Morone ott223661      
+MRCA of taxa in Balistes ott983863  
+Lutjanidae ott129124 MRCA of taxa in Lutjanus ott943201
+MRCA of taxa in Acanthurus ott605288  
+Zebrasoma ott199069      
+Gasterosteus ott401070      
+Apeltes ott591252      
+MRCA of taxa in Pterois ott1075152  
+Luciopercinae ott57420 MRCA of taxa in Sander ott557675
+MRCA of taxa in Cephalopholis ott764292  
+Lepomis ott836782      
+Archoplites ott778316      
+Enneacanthus ott313431      
+MRCA of taxa in Acanthogobius ott961465  
+Proterorhinus ott264416      
+MRCA of taxa in Neogobius ott475615  
+Osteoglossum ott179342      
+Anguilla ott854195      
+Lepisosteus ott904121      
+Petromyzon ott321787      
+Ascidia ott1033778      
+Phallusia ott12608      
+Corella ott726840      
+Ciona ott744230      
+Didemnum ott872818      
+Botryllus ott487092      
+Symplegma ott879606      
+Polyandrocarpa ott750981      
+Botrylloides ott158430      
+Styela ott750982      
+Microcosmus ott331381      
+Molgula ott792373      
+Ophiactis ott66287      
+Dactylogyrus ott869972      
+Bothriocephalus ott560031      
+Scolex ott5308164      
+Timoniella ott5694039      
+Neascus ott3670002      
+Ichthyocotylurus ott751876      
+Dreissena ott201849      
+Watersipora ott367038      
+Cribrilina ott891646      
+Tricellaria ott542314      
+Schizoporella ott780192      
+Cryptosula ott411224      
+Savigyniella ott168114      
+Amathia ?genus in Lophotrochozoa? ott377466   
+Bowerbankia ott401890      
+Alcyonidium ott619649      
+Membranipora ott394410      
+Tubulipora ott442967      
+Lophopodella ott1089110      
+Gulbarentsia ott362910      
+Cipangopaludina ott33664      
+Viviparus ott821764      
+Pomacea ott843053      
+MRCA of taxa in Nassarius ott54415  
+Busycotypus ott33661      
+Ceratostoma ott586028      
+Ocinebrellus ott726979      
+Urosalpinx ott850829      
+Rapana ott410563      
+Crepidula ott24075      
+Potamopyrgus ott1096311      
+Bithynia ott358007      
+Gillia ott2919874      
+Littorina ott622240      
+Glossodoris ott5870      
+Thecacera ott760610      
+Dendronotus ott553083      
+Cumanotus ott2876373      
+Eubranchus ott896651      
+Tenellia ott136283      
+Cuthona ott951821      
+Hermissenda ott159592      
+Philine ott714769      
+Physa ?genus in Opisthokonta? ott9041   
+Radix ott49822      
+Cittarium ott624125      
+Acar ott466200      
+Anomia ?genus in Lophotrochozoa? ott923101   
+Pinctada ott978940      
+Crassostrea ott355604      
+Ostrea ott969369      
+Mercenaria ott198203      
+Perna ott239657      
+Mytella ott887489      
+Arcuatula ott50688      
+Geukensia ott945731      
+Limnoperna ott94514      
+Adula ott685170      
+Tridacna ott255553      
+Theora ott970393      
+Nuttallia ott139251      
+Mya ott7365      
+Corbula ott146151      
+Lyrodus ott720171      
+Teredo ?genus in phylum Mollusca? ott326000  
+Rangia ott12985      
+Chama ott907208      
+Corbicula ?genus in kingdom Metazoa? ott775909  
+Venerupis ott73960      
+Ruditapes ott244017      
+Pisidium ott102604      
+Sphaerium ott439667      
+Tapes ott1037284      
+Gemma ott801953      
+Petricolaria ott801950      
+Lasmigona ott241667      
+Potamothrix ott13305      
+Tubificoides ott767198      
+Paranais ott887882      
+Ripistes ott975577      
+Gianius ott2847383      
+Branchiura ?genus in Lophotrochozoa? ott790921   
+Capitella ott966426      
+Heteromastus ott849195      
+Clymenella ott148575      
+Hydroides ott327392      
+Salmacina ott968520      
+Ficopomatus ott631822      
+Janua ott617644      
+Pomatoleios ott377245      
+Sabellastarte ott992905      
+Euchone ott438509      
+Myxicola ott1015788      
+Marenzelleria ott4324      
+Spiophanes ott752055      
+Streblospio ott347042      
+Scolelepis ott58639      
+Boccardia ott132231      
+Boccardiella ott250872      
+Pseudopolydora ott328224      
+Dodecaceria ott1067345      
+Amphicteis ott414333      
+Harmothoe ott1067342      
+Exogone ott908171      
+Alitta ott961521      
+Neanthes ott563194      
+Nephtys ott336918      
+Marphysa ott260032      
+Lumbrineris ott834687      
+Tanysphyrus ott1060605      
+Daphnia ott59084      
+Eubosmina ott799133      
+Cercopagis ott613790      
+Bythotrephes ott1022217      
+Skistodiaptomus ott262139      
+Pseudodiaptomus ott350917      
+Eurytemora ott703986      
+Salmincola ott1011853      
+Cyclops ott850514      
+Megacyclops ott706129      
+Oithona ott840664      
+Mytilicola ott972843      
+Heteropsyllus ott2953126      
+Nitokra ott127533      
+Schizopera ott794379      
+Tachidius ott2950670      
+Neoergasilus ott2945864      
+Paranthura ott97965      
+Ligia ?genus in Opisthokonta? ott907473   
+Sphaeroma ?genus in Opisthokonta? ott857782   
+Dynoides ott2995982      
+Dynamenopsis ott2996107      
+Joeropsis ott405261      
+Synidotea ott456956      
+Hemimysis ott159969      
+Mysis ott373475      
+Ampelisca ott166911      
+Stenothoe ott166909      
+Parapleustes ott2985895      
+Caprella ott5342283      
+Jassa ott1011199      
+Microjassa ott2988061      
+Ericthonius ott227565      
+Grandidierella ott203745      
+Ampithoe ott173413      
+Corophium ott852801      
+Monocorophium ott2984975      
+Echinogammarus ott989110      
+MRCA of taxa in Macrobrachium ott736328  
+MRCA of taxa in Penaeus ott5845  
+Hemigrapsus ott356745      
+Rhithropanopeus ott190393      
+Callinectes ott1086763      
+Scylla ott182918      
+Carcinus ott706427      
+Cancer ott706443      
+MRCA of taxa in Procambarus ott79859  
+Orconectes ott927957      
+Homarus ott28240      
+Porcellanidae ott211908 MRCA of taxa in Petrolisthes ott211907
+Gonodactylaceus ott880801      
+Nebalia ott25454      
+Amphibalanus ott1042709      
+Megabalanus ott198845      
+MRCA of taxa in Chthamalus ott663611  
+Eusarsiella ott687304      
+Argulus ott628405      
+Ammothea ott605711      
+Macrobiotus ott661258      
+Milnesium ott1085413      
+Anguillicola ott886518      
+Tubastraea ott1079001      
+Diadumene ?genus in family Diadumenidae? ott119895  
+Bunodeopsis ott3674720      
+Carijoa ott223051      
+Craspedacusta ott997626      
+Maeotias ott350083      
+Gonionemus ott691178      
+MRCA of taxa in Clytia ott274816  
+Plumulariidae ott566406 MRCA of taxa in Plumularia ott566403
+MRCA of taxa in Dynamena ott58255  
+MRCA of taxa in Thyroscyphus ott479994  
+Cordylophora ott765326      
+Turritopsis ott566398      
+Moerisia ott358897      
+Pennaria ott707212      
+Sarsia ott551392      
+Ectopleura ott183503      
+Eudendrium ott309117      
+Cassiopea ott811884      
+Phyllorhiza ott939030      
+Aurelia ?genus in phylum Cnidaria? ott404483  
+Drymonema ott1045721      
+Myxobolidae ott412085 MRCA of taxa in Myxobolus ott978532
+Sphaeromyxa ott596338      
+MRCA of taxa in Cliona ott336987  
+MRCA of taxa in Suberites ott127352  
+MRCA of taxa in Prosuberites ott804711  
+Gelliodes ott373440      
+Crucibulum ?genus in Nucletmycea? ott212212   
+Heterosporis ott556040      
+Glugea ott107154      
+Aeromonas ott181216      
+Piscirickettsia ott822752      
+Renibacterium ott93006      
