@@ -19,3 +19,11 @@ write.table(CALeDNAformat[,1], file = "CALeDNAformatT.txt",  row.names= FALSE,  
 
 
 
+#to create a comma seperated .txt file of a single row
+CleanDataframe <- GoogleSheetData_domain#make a df copy to manipulate
+#remove rows if there is a NA value in a specified cols: #"speciesgenus", "Genus", "Family", "order", "class","phylum", "domain", "CALeDNA format")
+CleanDataframe<- CleanDataframe[!is.na(CleanDataframe$speciesgenus), ] 
+#removing rows in the dataframe where duplicate values are found in a specified cols
+CleanDataframe<- unique(CleanDataframe[,1])#create vector of unique values in specified subset of dataframe 
+Family_comma_sep_list.txt <- CleanDataframe
+

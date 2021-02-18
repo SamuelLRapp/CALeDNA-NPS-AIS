@@ -4,16 +4,20 @@
 setwd("~/GitHub/CALeDNA-NPS-AIS/JuypterNotebook/annotating_tree")
 OTL_dataframe  <- read.csv(file = "NPS_AIS_GENUS_taxon_names_according_to_OTL.txt")
 CoverageMatrix_NCBI_genus_DF<- read.csv(file = "CovM_NCBI_genus_NPS.csv")
-Output_DF <- CoverageMatrix_NCBI_genus_DF
-
-write.csv(Output_DF, file = "OTT_IDD_Annotated", row.names = FALSE)
 
 
-functionTEST <-Annotated_OTL_IDS(OTL_dataframe, CoverageMatrix_NCBI_genus_DF)
+function1output <-Annotated_OTL_IDS(OTL_dataframe, CoverageMatrix_NCBI_genus_DF)
+OTLs_left_behind<-compare_firstC_in_DFs(OTL_dataframe,function1output)      #find OTL values that didn't get replaced
+NUM_BWB_SPP_left_behind(CoverageMatrix_NCBI_genus_DF,function1output) #number of BWB values that didn't get replaced 
 
-MisseedOTLvalues2<-compare_firstC_in_DFs(Output_DF, functiionTEST)
-print(compare_firstC_in_DFs(Output_DF, functiionTEST))
-print(compare_firstC_in_DFs(MisseedOTLvalues2, MisseedOTLvalues))
+write.csv(function1output, file = "OTT_IDD_Annotated", row.names = FALSE)
+
+
+NUM_BWB_SPP_left_behind <- function(BWB_spp_DF,Annotated_OTL_DF)
+{
+  output <- (nrow(BWB_spp_DF) - nrow(Annotated_OTL_DF))
+  output
+}
 
 Annotated_OTL_IDS <- function(OTL_df, BWB_df) #takes in OTL_df dataframe, BWB dataframe and outputs the BWB dataframe with OTL names
 {
@@ -39,35 +43,13 @@ Annotated_OTL_IDS <- function(OTL_df, BWB_df) #takes in OTL_df dataframe, BWB da
         rows_to_remove <- c(rows_to_remove, i)
       }
     }
-  Output_DF <- Output_DF[-rows_to_remove,]
+  Output_DF <- Output_DF[-rows_to_remove,]#delete rows where CovMatrixvalue wasn't replaced, ie haystack not found
+  #some of those values are due to 
   Output_DF
 }
 
 
-rows_to_remove <- c()
-for (i in 1:nrow(Output_DF)) {
-  needle <- Output_DF[i,1]
-  foundHaystack <- "FALSE"
-  for(j in 1:nrow(OTL_dataframe))
-  {
-    haystack<-OTL_dataframe[j,1]
-    if(grepl(needle, haystack, fixed = TRUE) == T)
-       {
-        haystack <- trimws(haystack, "r")
-        Output_DF[i,1] <- haystack
-        foundHaystack <-"TRUE"
-    }
-  }
-  if(foundHaystack == "FALSE") #no OTL value found
-  { 
-    rows_to_remove <- c(rows_to_remove, i)
-  }
-}
-
-Output_DF <- Output_DF[-rows_to_remove,]#delete rows where CovMatrixvalue wasn't replaced, ie haystack not found
-#some of those values are due to 
-
-compare_firstC_in_DFs <- function(OTU_longerlist,ShorterList)
+compare_firstC_in_DFs <- function(OTU_longerlist,ShorterList) #comparing first column of two dataframes (should besimilar) and outputting values that aren't in both
 {
   output <- c() 
   for(i in 1:nrow(OTU_longerlist))

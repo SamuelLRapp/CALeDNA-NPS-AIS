@@ -30,6 +30,9 @@ for(i in 1:num_rows) #fill out the first column with  "proper names"
     }
 }
 
+all_taxonomic_ranks <- tax_name(sci ="Hemidiscaceae", get = c("genus", "family", "order", "class","phylum", "domain"), db = "ncbi")
+
+
 for(i in 1:num_rows)
 {
   all_taxonomic_ranks <- tax_name(sci = taxonomy_dataframe[i,1], get = c("genus", "family", "order", "class","phylum", "domain"), db = "ncbi")
