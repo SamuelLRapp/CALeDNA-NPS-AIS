@@ -2,16 +2,26 @@
 ###the goal of this R code is to take a Nexus .txt file from iTOL, and annotate it with CRUX/NCBI reference database information
 ###########
 setwd("~/GitHub/CALeDNA-NPS-AIS/JuypterNotebook/annotating_tree")
-OTL_dataframe  <- read.csv(file = "NPS_AIS_GENUS_taxon_names_according_to_OTL.txt")
-CoverageMatrix_NCBI_genus_DF<- read.csv(file = "CovM_NCBI_genus_NPS.csv")
+OTL_dataframe  <- read.csv(file = "input_iTOL/NPS_AIS_GENUS_taxon_names_according_to_OTL.txt")
+CoverageMatrix_NCBI_genus_DF<- read.csv(file = "input_iTOL/CovM_NCBI_genus_NPS.csv")
 
 
 function1output <-Annotated_OTL_IDS(OTL_dataframe, CoverageMatrix_NCBI_genus_DF)
+OTL_w_underscores<- add_underscores(function1output)
+write.csv(OTL_w_underscores, file = "OTT_IDD_Annotated", row.names = FALSE)
+
 OTLs_left_behind<-compare_firstC_in_DFs(OTL_dataframe,function1output)      #find OTL values that didn't get replaced
 NUM_BWB_SPP_left_behind(CoverageMatrix_NCBI_genus_DF,function1output) #number of BWB values that didn't get replaced 
 
-write.csv(function1output, file = "OTT_IDD_Annotated", row.names = FALSE)
-
+ add_underscores <- function(ddata.frame) #takes OTL list and adds _ in betweeen spaces between name and ottid
+{
+  for(i in 1:nrow(ddata.frame))
+  {
+    ddata.frame[i,1] <- trimws(ddata.frame[i,1], "r")
+    ddata.frame[i,1] <- gsub(" ", "_",  ddata.frame[i,1]) #change gsub to work with genu spp ott
+  }
+  ddata.frame
+}
 
 NUM_BWB_SPP_left_behind <- function(BWB_spp_DF,Annotated_OTL_DF)
 {
@@ -22,7 +32,7 @@ NUM_BWB_SPP_left_behind <- function(BWB_spp_DF,Annotated_OTL_DF)
 Annotated_OTL_IDS <- function(OTL_df, BWB_df) #takes in OTL_df dataframe, BWB dataframe and outputs the BWB dataframe with OTL names
 {
   rows_to_remove <- c()
-  Output_DF <-BWB_df
+  Output_DF <- BWB_df
     for(i in 1:nrow(Output_DF))
     {
       needle <- Output_DF[i,1]
