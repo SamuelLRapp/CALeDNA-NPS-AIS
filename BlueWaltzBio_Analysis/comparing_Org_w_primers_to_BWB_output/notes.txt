@@ -1,0 +1,24 @@
+1. I have a list of AIS species that must have been sequenced, because they have primers associated with them. If those data have been publicly published to NCBI then they should be found by BWB_CRUX and by BWB_NCBI searches. However, we don't know which organisms have had their data published, which primers we're developed after the our CRUX databases were built in 2018-2019ish.
+
+Compare species found in for PCR and qPCR and their corresponding genes:
+
+There is more nuance to primer blast than simply the name of the barcode gene. IE there are many many different COI primers, and some sequences labeled COI aren't thee full COI gene...
+Can we reduce the noise?
+
+Output of this:
+4 options
+All species have primers developed for them at a given Barcode
+1. Species/barcode-Gene Combo found in NCBI and CRUX search
+2. Species/barcode-Gene Combo found in NCBI not in CRUX search
+3. Species/barcode-Gene Combo not found in NCBI but found in CRUX search
+4. Species/barcode-Gene Combo not found in either NCBI or CRUX search
+
+
+
+Good scientists are their own best critics
+1. What are the differences and biases in our CRUX and NCBI search?
+The CRUX searches through the taxonomic output of SilicoPCR. There are parameters, like number of mismatches allowed that can effect results. (Maybe this isn't the case for universal primers, but for example: there are many many COI primers developed. Does the universal primer CALeDNA picked amplify all those organisms? ...What is the expected amplification size (is it the full gene?)) How universal are universal primers
+
+The NCBI search relies on what the sequencer writes into the webpage/documented. IE Did they choose not the label the [Gene] metadata. This could be effected by naming conventions, changed Latin names, lazy metadata.
+
+Both the results are also subject to misidentification of the organism that was sequenced. Also once sequencing occurs, it may be found that organisms that were considered to be part of the same taxonomic group, have greater than expected genetic variation. 

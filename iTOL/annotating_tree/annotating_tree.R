@@ -6,12 +6,17 @@ OTL_dataframe  <- read.csv(file = "input_iTOL/NPS_AIS_GENUS_taxon_names_accordin
 CoverageMatrix_NCBI_genus_DF<- read.csv(file = "input_iTOL/CovM_NCBI_genus_NPS.csv")
 
 
+
 function1output <-Annotated_OTL_IDS(OTL_dataframe, CoverageMatrix_NCBI_genus_DF)
 OTL_w_underscores<- add_underscores(function1output)
 write.csv(OTL_w_underscores, file = "OTT_IDD_Annotated", row.names = FALSE)
 
 OTLs_left_behind<-compare_firstC_in_DFs(OTL_dataframe,function1output)      #find OTL values that didn't get replaced
 NUM_BWB_SPP_left_behind(CoverageMatrix_NCBI_genus_DF,function1output) #number of BWB values that didn't get replaced 
+
+
+
+
 
  add_underscores <- function(ddata.frame) #takes OTL list and adds _ in betweeen spaces between name and ottid
 {

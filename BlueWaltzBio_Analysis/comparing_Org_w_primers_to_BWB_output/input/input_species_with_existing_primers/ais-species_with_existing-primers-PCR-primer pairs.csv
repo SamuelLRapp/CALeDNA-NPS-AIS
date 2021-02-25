@@ -1,0 +1,103 @@
+gene targeted for PCR,Species Name ,qPCR or PCR
+rbcL (chloroplast) ,Codium fragile ssp tomentosoides,pcr
+COI,Ficopomatus enigmaticus,pcr
+COI,Amphibalanus improvisus,pcr
+CO1_5,Orconectes rusticus,pcr
+COI_5,Procambarus clarkii,pcr
+COI,Crepidula fornicata,pcr
+COI (cytochrome oxidase subunit I),Mytilopsis leucophaeata,pcr
+COI,Dreissena polymorpha,pcr
+16S,Corbicula fluminea,pcr
+COI,Dreissena rostriformis bugensis,pcr
+16S,Melanoides tuberculatus,pcr
+tufAF,Caulerpa taxifolia,pcr
+matK,Myriophyllum aquaticum,pcr
+matK,Eichhornia crassipes,pcr
+matK,Nymphoides peltata,pcr
+matK,Pistia stratiotes,pcr
+matK,Salvinia molesta,pcr
+COI,Ciona intestinalis,pcr
+18S,Styela clava,pcr
+18S rDNA,Diplosoma listerianum,pcr
+16S,Ameiurus melas,pcr
+16S,Ameiurus nebulosus,pcr
+ATP6 ,Anguilla rostrata,pcr
+COI,Ctenopharyngodon idella,pcr
+COI,Cyprinus carpio,pcr
+Ga-16S ,Gambusia affinis,pcr
+Ga-16S ,Gambusia holbrooki,pcr
+COI,Gymnocephalus cernuus,pcr
+SnCOI366,Lepisosteus platostomus,pcr
+SL_eDNA_NM_F1 (COI),Neogobius melanostomus,pcr
+COI,Danio rerio ,pcr
+COI,Mylopharyngodon piceus ,pcr
+5.8S ,Alexandrium ostenfeldii,pcr
+5.8S ,Alexandrium tamarense,pcr
+ITS (internal transcribed spacer),Myriophyllum spicatum,pcr
+COI,Botryllus schlosseri,pcr
+18S,Botrylloides violaceus,pcr
+16Sar ,Mya arenaria,pcr
+16Sar- rRNA,Rangia cuneata,pcr
+16S,Eriocheir sinensis,pcr
+rbcL,Heterosiphonia japonica,qpcr
+28S,Prorocentrum minimum,qpcr
+COX3,Sargassum muticum,qpcr
+rbcL,Bonnemaisonia hamifera,qpcr
+28S,Ficopomatus enigmaticus,qpcr
+28S,Teredo navalis,qpcr
+16S,Marenzellaria viridis,qpcr
+Mm_COI_1516F / Mm_COI_2169R,Membranipora membranacea,qpcr
+COI,Bugula neritina,qpcr
+COI,Cordylophora caspia,qpcr
+EcCr_S (COI),Ectopleura crocea,qpcr
+COI,Mysis diluviana,qpcr
+Cm_COI_1490F / Cm_COI_2198R,Caprella mutica,qpcr
+BYLO_COI,Bythotrephes longimanus,qpcr
+CEPE_COI,Cercopagis pengoi,qpcr
+mtDNA-CO1,Rhithropanopeus harrisii,qpcr
+CO1-Pc-03,Procambarus clarkii,qpcr
+mtDNA-CO1,Homarus americanus,qpcr
+CO1,Crepidula fornicata,qpcr
+Dreissend 16s rRNA (DRE16S),Dreissena polymorpha,qpcr
+mtDNA-CO1,Crassostrea gigas,qpcr
+28S,Petricolaria pholadiformis,qpcr
+Dresissena bugensis (COI) (DREQM),Dreissena rostriformis bugensis,qpcr
+Cytb ,Potamopyrgus antipodarum,qpcr
+region of intergenic spacer between trnL and trnF,Egeria densa,qpcr
+nuclear primer - ITS1; chloroplast primer - matK,Hydrilla verticillata,qpcr
+CI_COI_397F / CI_COI_1236R,Ciona intestinalis,qpcr
+COI,Didemnum vexillum,qpcr
+COI,Styela clava,qpcr
+18S,Molgula manhattensis,qpcr
+Aa_COI_1490F / Aa_COI_2198R,Ascidiella aspersa,qpcr
+COI,Styela plicata,qpcr
+COI,Ciona savignyi,qpcr
+Dl_COI_1490F / Dl_COI_2198R,Diplosoma listerianum,qpcr
+ALSA_COI,Alosa sapidissima,qpcr
+COI,Cichlasoma urophthalmus,qpcr
+MOSA_COI,Morone saxatilis,qpcr
+OSMO_COI,Osmerus mordax,qpcr
+SASA_COI,Salmo salar,qpcr
+DLLFq,Pterois volitans,qpcr
+COI,Carassius auratus,qpcr
+CTID_COI,Ctenopharyngodon idella,qpcr
+CYCA_COI,Cyprinus carpio,qpcr
+chtochrome b (cytb),Gasterosteus aculeatus,qpcr
+HYNO_COI,Hypophthalmichthys nobilis,qpcr
+COI,Neogobius melanostomus,qpcr
+mtDNA-CO1 ,Oncorhynchus gorbuscha,qpcr
+ONMY_CYTB,Oncorhynchus mykiss,qpcr
+cytochrome b (cytb),Platichthys flesus,qpcr
+SATR_COI,Salmo trutta,qpcr
+SAAL_COI,Salvelinus alpinus,qpcr
+cyt b ,Salvelinus fontinalis,qpcr
+SCER_COI,Scardinius erythrophthalmus,qpcr
+TITI_CYTB,Tinca tinca,qpcr
+18S,Corbula amurensis,qpcr
+jgLCO1490a / jgLCO2198,Botryllus schlosseri,qpcr
+jgLCO1490a / jgLCO2198,Botrylloides violaceus,qpcr
+DNA - CO1,Mya arenaria,qpcr
+16S ,Oreochromis mossambicus,qpcr
+mtDNA-Cytb,Eriocheir sinensis,qpcr
+16S,Monopterus albus,qpcr
+m cytb,Lepomis macrochiru,qpcr
