@@ -16,7 +16,6 @@ unique<-unique(taxonomy_dataframe)# I recommeend to make sure all the content is
 
 # function to generate dataframe with all taxonomic ranks -----------------
 
-
 Generate_DF_All_Ranks_from_latin_species_list <- function( 
   Species_name_DataFrame #A dataframe where the first Column contains one species-Genus latin name per row
   #returns a dataframe with the columns speciesgenus", "Genus", "Family", "order", "class","phylum", "domain", "CALeDNA format"
@@ -62,8 +61,8 @@ Generate_DF_All_Ranks_from_latin_species_list <- function(
 
 # #Downloading and Exporting results in various ways! ---------------------
 
-#to download full dataset
-write.csv(taxonomy_dataframe, file = "taxonomy_dataframeRCODE_selected_homonym", row.names= FALSE)
+#to download full dataset, make sure you know your working directory
+write.csv(taxonomy_dataframe, file = "taxonomy_dataframeRCODE_selected_homonym", row.names= FALSE) 
 
 #to downloadjust a single column as a csv: (THERE IS DEF A BETTER WAY TO DO THIS***)
 gnr_species <- data.frame(matrix(ncol=1, nrow = num_rows)) #initialize dataframe with 1 col
