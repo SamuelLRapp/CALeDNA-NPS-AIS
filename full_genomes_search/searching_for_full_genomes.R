@@ -15,50 +15,182 @@ setwd('/Users/samuelrapp/GitHub/CALeDNA-NPS-AIS/full_genomes_search')
 dataset<-read.csv('input/taxonomy_dataframeRCODE_selected_homonym_2_1_21.csv')
 getwd()
 
-# *code --------------------------------------------------------------------
-paste0('',dataset[3,2],'')
-Results <- data.frame(matrix(0, ncol = 2, nrow = nrow(dataset)))
-Results <- dataset[,1]
-Results <- data.frame(matrix(0, ncol = 2, nrow = num_rows)) #creating dataframe
-taxa_of_interest <- dataset[,1] #vectorizing the species of interest
-Results$taxaname <- taxa_of_interest #add the vector to the column
-names(Results) <- c('taxaname', 'present_in_genome')
-test1<- Is_the_taxa_in_the_NCBI_genome_DB(dataset,1)
+source("/Users/samuelrapp/GitHub/CALeDNA-NPS-AIS/BlueWaltzBio_Analysis/Which_org_have_no_references/Which_org_have_no_ref_seq.R")
+source("../BlueWaltzBio_Analysis/Which_org_have_no_references/Which_org_have_no_ref_seq.R")
 
-genome_SearchTerm <- paste0('',dataset[1,2],'')
-genome_result<- entrez_search(db = "genome", term = genome_SearchTerm, retmax = 5)
+source('/Users/samuelrapp/GitHub/CALeDNA-NPS-AIS/full_genomes_search')
+
+# *code -----¬---------------------------------------------------------------
+NCBI_Genome <- Is_the_taxa_in_the_NCBI_genome_DB(dataset,1)
+Num_Organisms_with_genome(NCBI_Genome)
+Genome_taxa <-Organisms_with_genome(NCBI_Genome)
+
+Chloroplast_genomes<- Organisms_with_Chloroplast_genomes(dataset,1,TRUE)
+Chloroplast_taxa <- Num_Organisms_with_genome(Chloroplast_genomes)
+Chloroplast_taxa<- Organisms_with_genome(Chloroplast_genomes)
+
+Mitocondonrial_genomes<-Organisms_with_Mitocondonrial_genomes(dataset,1,TRUE)
+Num_Organisms_with_genome(Mitocondonrial_genomes)
+Mitocondonrial_taxa<- Organisms_with_genome(Mitocondonrial_genomes)
+
+
+#intersect<-
+  intersect(Mitocondonrial_taxa,Chloroplast_taxa)
 
 # functions ---------------------------------------------------------------
 
+Num_Organisms_with_genome <- function(
+  dataframe #output from Is_the_taxa_in_the_NCBI_genome_DB(), or Organisms_with_Mitocondonrial_genomes(), or Organisms_with_Chloroplast_genomes()
+)
+{
+  number <- 0
+  for(i in 1:nrow(dataframe))
+  {
+    if(dataframe[i,2]>0)
+    {
+      number <- number + 1
+    }
+  }
+  number
+}
+
+Organisms_with_genome <- function(
+  dataframe #takes in output from Is_the_taxa_in_the_NCBI_genome_DB(), or Organisms_with_Mitocondonrial_genomes(), or Organisms_with_Chloroplast_genomes()
+)
+{
+  Organisms_with_genome <- vector()
+  for(i in 1:nrow(dataframe))
+  {
+    if(dataframe[i,2]>0)
+    {
+      Organisms_with_genome <- c(Organisms_with_genome, dataframe[i,1])
+      }
+  }
+  Organisms_with_genome
+}
+
+Organisms_with_Mitocondonrial_genomes<-function( 
+  taxa_dataframe,  #input a list or datafrarme and return a datafram
+  column_number, #the column number from the dataframe you want to check
+  refseq = FALSE#if TRUE then add AND srcdb_refseq[PROP] to search statement, default don't add 
+  )
+{
+  taxa_dataframe<-taxa_dataframe[!duplicated(taxa_dataframe), ]#remove duplicate taxa names!
+  num_rows <- nrow(taxa_dataframe)
+  Results <- data.frame(matrix(0, ncol = 3, nrow = num_rows))
+  
+  parameters<- "set vector up"
+  
+  #   canis lupus[ORGN] AND 16000:17000[Sequence Length] AND (mitochondrial[Title] or mitochondrion[Title]] 
+  # AND srcdb_refseq[PROP]
+  
+  if(isTRUE(refseq))
+  {
+    parameters <- " AND (mitochondrial[TITL] or mitochondrion[TITL]) AND 16000:17000[SLEN] AND srcdb_refseq[PROP]"
+    names(Results) <- c('taxaname', 'Num_RefSeq_Mitocondonrial_Genomes_in_NCBI_Nucleotide','SearchStatements')
+  }else
+  {
+    parameters <- " AND (mitochondrial[TITL] or mitochondrion[TITL]) AND 16000:17000[SLEN]"
+    names(Results) <- c('taxaname', 'Num_Mitocondonrial_Genomes_in_NCBI_Nucleotide','SearchStatements')
+  }
+  
+  taxa_of_interest <- taxa_dataframe[,column_number] #vectorizing the species of interest
+  Results$taxaname <- taxa_of_interest #add the vector under taxa column to dataframe
+  
+  for(i in 1:num_rows)
+  {
+    Mitocondonrial_genome_SearchTerm <- paste0('',taxa_dataframe[i,column_number],'[ORGN]',parameters,'')
+    genome_result<- entrez_search(db = "nucleotide", term = Mitocondonrial_genome_SearchTerm, retmax = 5)
+    Results[i,2] <- genome_result$count 
+    Results[i,3] <- Mitocondonrial_genome_SearchTerm
+    
+    #to see if anythings popping up as we go
+    if(genome_result$count > 0)
+    {
+      print(i)
+      print(Mitocondonrial_genome_SearchTerm)
+    }
+  }
+  
+  Results
+}
+
+
+Organisms_with_Chloroplast_genomes<-function( 
+  taxa_dataframe,  #input a list or datafrarme and return a datafram
+  column_number, #the column number from the dataframe you want to check
+  refseq = FALSE #if TRUE then add AND srcdb_refseq[PROP] to search statement, default don't add
+)
+{
+  taxa_dataframe<-taxa_dataframe[!duplicated(taxa_dataframe), ]#remove duplicate taxa names!
+  num_rows <- nrow(taxa_dataframe)
+  Results <- data.frame(matrix(0, ncol = 3, nrow = num_rows))
+  
+  parameters <- "set vector up"
+  
+  # ((Sequoia sempervirens[ORGN] AND Chloroplast[TITLE])) AND 120000:170000[Sequence Length] 
+  # AND srcdb_refseq[PROP]
+  
+  if(isTRUE(refseq))
+  {
+    parameters <- " AND Chloroplast[TITL] AND 120000:170000[SLEN] AND srcdb_refseq[PROP]"
+    names(Results) <- c('taxaname', 'Num_RefSeq_Chloroplast_Genomes_in_NCBI_Nucleotide','SearchStatements')
+  }else
+  {
+    parameters <- " AND Chloroplast[TITL] AND 120000:170000[SLEN]"
+    names(Results) <- c('taxaname', 'Num_Chloroplast_Genomes_in_NCBI_Nucleotide','Chloroplast_SearchStatements')
+  }
+  
+  taxa_of_interest <- taxa_dataframe[,column_number] #vectorizing the species of interest
+  Results$taxaname <- taxa_of_interest #add the vector under taxa column to dataframe
+
+  for(i in 1:num_rows)
+  {
+    Chloroplast_genome_SearchTerm <- paste0('',taxa_dataframe[i,column_number],'[ORGN]',parameters,'')
+    genome_result<- entrez_search(db = "nucleotide", term = Chloroplast_genome_SearchTerm, retmax = 5)
+    Results[i,2] <- genome_result$count 
+    Results[i,3] <- Chloroplast_genome_SearchTerm
+    
+    #to see if anythings popping up as we go
+        if(genome_result$count > 0)
+      {
+          print(i)
+        print(Chloroplast_genome_SearchTerm)
+      }
+  }
+  
+  Results
+}
+
+
 Is_the_taxa_in_the_NCBI_genome_DB <- function( 
-  #the results of this function can be easily verified here: #https://www.ncbi.nlm.nih.gov/genome/browse#!/overview/
+  #the results of this function can be easily verified here: https://www.ncbi.nlm.nih.gov/genome
   taxa_dataframe,  #input a list or datafrarme and return a datafram
   column_number #the column number from the dataframe you want to check
 ) 
 {
-  num_rows <- nrow(taxa_dataframe)
-  Results <- data.frame(matrix(0, ncol = 2, nrow = num_rows))
-  class(Results)#creating dataframe
-  names(Results) <- c('taxaname', 'present_in_genome')
-  taxa_of_interest <- taxa_dataframe[,column_number] #vectorizing the species of interest
-  Results$taxaname <- taxa_of_interest #add the vector to the column
   
-  for(i in 1:40)#num_rows)#num_rows
+  taxa_dataframe<-taxa_dataframe[!duplicated(taxa_dataframe), ]#remove duplicate taxa names!
+  num_rows <- nrow(taxa_dataframe)
+  Results <- data.frame(matrix(0, ncol = 3, nrow = num_rows))
+  names(Results) <- c('taxaname', 'present_in_NCBI_Genome','GenomeDB_SearchStatements')
+  taxa_of_interest <- taxa_dataframe[,column_number] #vectorizing the species of interest
+  Results$taxaname <- taxa_of_interest #add the vector under taxa column to dataframe
+  
+  for(i in 1:num_rows)
   {
-    genome_SearchTerm <- paste0('',taxa_dataframe[i,column_number],'')
-    print(i)
+    genome_SearchTerm <- paste0('',taxa_dataframe[i,column_number],'[ORGN]','')
     genome_result<- entrez_search(db = "genome", term = genome_SearchTerm, retmax = 5)
     Results[i,2] <- genome_result$count #add zero
+    Results[i,3] <- genome_SearchTerm 
+    
     if(genome_result$count > 0)
     {
-       print(genome_SearchTerm) #Results[] <- genome_result$count #add count
-     }#else
-    # {
-    #   Results[] <- genome_result$count #add zero
-    # }
-    
+      print(i)
+      print(genome_SearchTerm)
+    }
   }
-  print("goodbye")
+  
   Results
 }
 

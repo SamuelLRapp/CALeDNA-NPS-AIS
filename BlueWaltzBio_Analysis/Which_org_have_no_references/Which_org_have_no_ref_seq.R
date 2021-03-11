@@ -1,12 +1,15 @@
 setwd('Users/samuelrapp/GitHub/CALeDNA-NPS-AIS/BlueWaltzBio_Analysis/Which_org_have_no_references')
+
+crux <- read.csv('/Users/samuelrapp/GitHub/CALeDNA-NPS-AIS/BlueWaltzBio_Analysis/input_ie_RefSeq_output/crux_nps.csv')
+ncbi <- read.csv('/Users/samuelrapp/GitHub/CALeDNA-NPS-AIS/BlueWaltzBio_Analysis/input_ie_RefSeq_output/CovM_NCBI_SPPgenus_NPS.csv')
+
+source(file = '/Users/samuelrapp/GitHub/CALeDNA-NPS-AIS/full_genomes_search/searching_for_full_genomes.R')
+
 crux <- read.csv('../input_ie_RefSeq_output/crux_nps.csv')
 ncbi <- read.csv('../input_ie_RefSeq_output/CovM_NCBI_SPPgenus_NPS.csv')
 
 ncbi_lists <- which_rows_are_empty_and_arenot(ncbi)
 crux_lists <- which_rows_are_empty_and_arenot(crux)
-ncbi_lists$haveZeroSeqs #[[2]]
-comparing
-print(List_breakdown(crux_lists))
 
 write.table(crux_lists_ma,file = "/Users/samuelrapp/GitHub/CALeDNA-NPS-AIS/BlueWaltzBio_Analysis/Which_org_have_no_references/out_put/CruxLists.csv", col.names = c('HaveSeq', 'havenoSeq'), row.names = FALSE)
 
@@ -26,6 +29,8 @@ intersect_taxa<-intersect(crux_lists[[2]],ncbi_lists[[2]])
 CRUX_SD<- setdiff(crux_lists[[2]],ncbi_lists[[2]]) #had zero seqin CRUX had some in NCBI
 NCBI_SD<- setdiff(ncbi_lists[[2]], crux_lists[[2]]) #had zero seq in NCBI had some in CRUX
 
+check<-intersect(crux_lists[[1]],Organisms_with_GENOME)
+check<-intersect(ncbi_lists[[1]],Organisms_with_GENOME)
 
 # functions area ----------------------------------------------------------
 
@@ -106,6 +111,7 @@ which_rows_are_empty_and_arenot <- function(dataframe) #returns list of 2 lists,
 #  
  A = c("Dog", "Cat", "Mouse")
 B = c("Tiger","Lion","Cat")
+class(B)
  A %in% B
 # [1] FALSE  TRUE FALSE
 # > intersect(A,B)
