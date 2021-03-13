@@ -26,21 +26,27 @@ Num_Organisms_with_genome(NCBI_Genome)
 Genome_taxa <-Organisms_with_genome(NCBI_Genome)
 
 Chloroplast_genomes<- Organisms_with_Chloroplast_genomes(dataset,1,TRUE)
-Chloroplast_taxa <- Num_Organisms_with_genome(Chloroplast_genomes)
+Num_Organisms_with_genome(Chloroplast_genomes)
 Chloroplast_taxa<- Organisms_with_genome(Chloroplast_genomes)
 
-Mitocondonrial_genomes<-Organisms_with_Mitocondonrial_genomes(dataset,1,TRUE)
-Num_Organisms_with_genome(Mitocondonrial_genomes)
-Mitocondonrial_taxa<- Organisms_with_genome(Mitocondonrial_genomes)
+Mitochondrial_genomes<-Organisms_with_Mitochondrial_genomes(dataset,1,TRUE)
+Num_Organisms_with_genome(Mitochondrial_genomes)
+Mitochondrial_taxa<- Organisms_with_genome(Mitochondrial_genomes)
+
+
+#exporting
+write.csv(NCBI_Genome, file = '/Users/samuelrapp/GitHub/CALeDNA-NPS-AIS/full_genomes_search/output/NCBI_Genome.csv', row.names = FALSE)
+write.csv(Mitochondrial_genomes, file = '/Users/samuelrapp/GitHub/CALeDNA-NPS-AIS/full_genomes_search/output/Mitochondonrial_genomes.csv', row.names = FALSE)
+write.csv(Chloroplast_genomes, file = '/Users/samuelrapp/GitHub/CALeDNA-NPS-AIS/full_genomes_search/output/Chloroplast_genomes.csv', row.names = FALSE)
 
 
 #intersect<-
-  intersect(Mitocondonrial_taxa,Chloroplast_taxa)
+  intersect(Mitochondrial_taxa,Chloroplast_taxa)
 
 # functions ---------------------------------------------------------------
 
 Num_Organisms_with_genome <- function(
-  dataframe #output from Is_the_taxa_in_the_NCBI_genome_DB(), or Organisms_with_Mitocondonrial_genomes(), or Organisms_with_Chloroplast_genomes()
+  dataframe #output from Is_the_taxa_in_the_NCBI_genome_DB(), or Organisms_with_Mitochondrial_genomes(), or Organisms_with_Chloroplast_genomes()
 )
 {
   number <- 0
@@ -55,7 +61,7 @@ Num_Organisms_with_genome <- function(
 }
 
 Organisms_with_genome <- function(
-  dataframe #takes in output from Is_the_taxa_in_the_NCBI_genome_DB(), or Organisms_with_Mitocondonrial_genomes(), or Organisms_with_Chloroplast_genomes()
+  dataframe #takes in output from Is_the_taxa_in_the_NCBI_genome_DB(), or Organisms_with_Mitochondrial_genomes(), or Organisms_with_Chloroplast_genomes()
 )
 {
   Organisms_with_genome <- vector()
@@ -69,7 +75,7 @@ Organisms_with_genome <- function(
   Organisms_with_genome
 }
 
-Organisms_with_Mitocondonrial_genomes<-function( 
+Organisms_with_Mitochondrial_genomes<-function( 
   taxa_dataframe,  #input a list or datafrarme and return a datafram
   column_number, #the column number from the dataframe you want to check
   refseq = FALSE#if TRUE then add AND srcdb_refseq[PROP] to search statement, default don't add 
@@ -87,11 +93,11 @@ Organisms_with_Mitocondonrial_genomes<-function(
   if(isTRUE(refseq))
   {
     parameters <- " AND (mitochondrial[TITL] or mitochondrion[TITL]) AND 16000:17000[SLEN] AND srcdb_refseq[PROP]"
-    names(Results) <- c('taxaname', 'Num_RefSeq_Mitocondonrial_Genomes_in_NCBI_Nucleotide','SearchStatements')
+    names(Results) <- c('taxaname', 'Num_RefSeq_Mitochondrial_Genomes_in_NCBI_Nucleotide','SearchStatements')
   }else
   {
     parameters <- " AND (mitochondrial[TITL] or mitochondrion[TITL]) AND 16000:17000[SLEN]"
-    names(Results) <- c('taxaname', 'Num_Mitocondonrial_Genomes_in_NCBI_Nucleotide','SearchStatements')
+    names(Results) <- c('taxaname', 'Num_Mitochondrial_Genomes_in_NCBI_Nucleotide','SearchStatements')
   }
   
   taxa_of_interest <- taxa_dataframe[,column_number] #vectorizing the species of interest
@@ -99,16 +105,16 @@ Organisms_with_Mitocondonrial_genomes<-function(
   
   for(i in 1:num_rows)
   {
-    Mitocondonrial_genome_SearchTerm <- paste0('',taxa_dataframe[i,column_number],'[ORGN]',parameters,'')
-    genome_result<- entrez_search(db = "nucleotide", term = Mitocondonrial_genome_SearchTerm, retmax = 5)
+    Mitochondrial_genome_SearchTerm <- paste0('',taxa_dataframe[i,column_number],'[ORGN]',parameters,'')
+    genome_result<- entrez_search(db = "nucleotide", term = Mitochondrial_genome_SearchTerm, retmax = 5)
     Results[i,2] <- genome_result$count 
-    Results[i,3] <- Mitocondonrial_genome_SearchTerm
+    Results[i,3] <- Mitochondrial_genome_SearchTerm
     
     #to see if anythings popping up as we go
     if(genome_result$count > 0)
     {
       print(i)
-      print(Mitocondonrial_genome_SearchTerm)
+      print(Mitochondrial_genome_SearchTerm)
     }
   }
   

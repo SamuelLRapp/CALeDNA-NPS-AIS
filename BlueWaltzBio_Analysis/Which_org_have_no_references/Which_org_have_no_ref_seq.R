@@ -29,8 +29,14 @@ intersect_taxa<-intersect(crux_lists[[2]],ncbi_lists[[2]])
 CRUX_SD<- setdiff(crux_lists[[2]],ncbi_lists[[2]]) #had zero seqin CRUX had some in NCBI
 NCBI_SD<- setdiff(ncbi_lists[[2]], crux_lists[[2]]) #had zero seq in NCBI had some in CRUX
 
-check<-intersect(crux_lists[[1]],Organisms_with_GENOME)
-check<-intersect(ncbi_lists[[1]],Organisms_with_GENOME)
+check<-intersect(crux_lists[[2]],Organisms_with_GENOME)
+check<-intersect(ncbi_lists[[2]],Organisms_with_GENOME)
+
+check<-intersect(crux_lists[[2]],Chloroplast_taxa)
+check<-intersect(ncbi_lists[[2]],Chloroplast_taxa)
+
+check<-intersect(crux_lists[[2]],Mitocondonrial_taxa)
+check<-intersect(ncbi_lists[[2]],Mitocondonrial_taxa)
 
 # functions area ----------------------------------------------------------
 
@@ -109,7 +115,7 @@ which_rows_are_empty_and_arenot <- function(dataframe) #returns list of 2 lists,
 # playground --------------------------------------------------------------
 # https://stackoverflow.com/questions/17598134/compare-two-character-vectors-in-r
 #  
- A = c("Dog", "Cat", "Mouse")
+A = c("Dog", "Cat", "Mouse")
 B = c("Tiger","Lion","Cat")
 class(B)
  A %in% B
