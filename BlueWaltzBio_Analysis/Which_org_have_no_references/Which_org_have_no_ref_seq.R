@@ -13,38 +13,22 @@ ncbi <- read.csv('../input_ie_RefSeq_output/CovM_NCBI_SPPgenus_NPS.csv')
 
 
 # main script -------------------------------------------------------------
+(scipen=999)
+CRUX_summary_report<-summary_report(crux)
+CRUX_summary_report2<-summary_report(crux)
 
-ncbi_lists <- which_rows_are_empty_and_arenot(ncbi,Which_Column = -1)
-ncbi_lists <- which_rows_are_empty_and_arenot(ncbi,Which_Column = 2)
-  Sentence_List_breakdown(ncbi_lists)
-ncbi <- ncbi[,1:7]
-hello<-sum_counts_in_columns(ncbi)
+#combine multiple COI NCBI names into 1
+colnms=c("X.CO1", "X.COX1", "X.COI")
+ncbi$Combined_COI<-rowSums(ncbi[,colnms])
+#removing columns that were combined
+drops <- c("X.CO1", "X.COX1", "X.COI")
+ncbi<-ncbi[ , !(names(ncbi) %in% drops)]
 
-hello<-sum_counts_in_columns(crux)
+NCBI_summary_report<-summary_report(ncbi)
 
-ncbi<-unite(ncbi, newcol, c(X.COI, X.CO1), remove=FALSE)
+G_NCBI_summary_report<-summary_report(ncbi_genus)
+F_NCBI_summary_report<-summary_report(ncbi_family)
 
-statistics_df <- data.frame(matrix(ncol = 4, nrow = 0))
-new_col_names <- c("category","number of sequences found", "percent of total sequences found", "num of organism with at least one sequence", "num of organisms with no sequences")
-colnames(statistics_df) <- new_col_names
-
-na.omit(ncbi)
-non_number_values <- c('genus', 'family', 'class', 'order')
-crux[1,7]%in%non_number_values
-NA%in%non_number_values
-
-
-NA <- NA
-
-
-
-crux_lists <- which_rows_are_empty_and_arenot(crux)
-ncbi_genus_lists <- which_rows_are_empty_and_arenot(ncbi_genus)
-Sentence_List_breakdown(ncbi_genus_lists)
-ncbi_family_lists <- which_rows_are_empty_and_arenot(ncbi_family)
-Sentence_List_breakdown(ncbi_family_lists)
-as.matrix(ncbi_genus_lists)
-class(ncbi_genus_lists)
 
 #export
 write.table(crux_lists_ma,file = "/Users/samuelrapp/GitHub/CALeDNA-NPS-AIS/BlueWaltzBio_Analysis/Which_org_have_no_references/out_put/CruxLists.csv", col.names = c('HaveSeq', 'havenoSeq'), row.names = FALSE)
@@ -85,6 +69,7 @@ Sentence_List_breakdown <- function(output_of_which_rows_are_empty_and_arenot #t
   output<-paste0('There are ',num_spp_with_zero, ' taxa with no sequence information and ', num_sup_with_some, ' taxa with at least 1 sequence found')
   output
 }
+
 
 convert_CRUX <- function(crux_output #take a crux output matrix and  turn the characters "genus, spp, etc" into  0s/1s
                          #this function is used by which_rows_are_empty_and_arenot()
@@ -215,14 +200,14 @@ which_rows_are_empty_and_arenot <- function(dataframe, Which_Column#-1 means do 
 }
 
 
-sum_counts_in_columns <- function(dataframe)
+summary_report <- function(dataframe)
 {
   #calls convert_CRUX()s
   dataframe <- convert_CRUX(dataframe)
   class(dataframe)
   class(dataframe[,1])
   class(dataframe[,2])
-  
+  options(scipen=999) #scientific notion  
 
   new_row_names <- "total"
   new_row_names<-  c(new_row_names, colnames(dataframe[-1]))#doesn't include column with taxa snames
