@@ -1,0 +1,9 @@
+"","category","number of sequences found","percent of total sequences found","num of organism with at least one sequence","num of organisms with no sequences"
+"1","total",2279724,100,643,49
+"2","X18S",3053,0.00133919720106469,329,363
+"3","X16S",3847,0.00168748497625151,354,338
+"4","PITS",4698,0.00206077577812051,326,366
+"5","CO1",41119,0.01803683252885,398,294
+"6","FITS",219501,0.0962840238555193,116,576
+"7","trnL",2081,0.00091282979869493,143,549
+"8","Vert12S",2005425,0.879678855861499,181,511

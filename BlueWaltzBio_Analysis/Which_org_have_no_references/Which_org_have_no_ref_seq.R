@@ -11,11 +11,8 @@ ncbi_family<- read.csv('/Users/samuelrapp/GitHub/CALeDNA-NPS-AIS/BlueWaltzBio_An
 crux <- read.csv('../input_ie_RefSeq_output/crux_nps.csv')
 ncbi <- read.csv('../input_ie_RefSeq_output/CovM_NCBI_SPPgenus_NPS.csv')
 
+# combining COI/COX1/CO1 columns in NCBI search ---------------------------
 
-# main script -------------------------------------------------------------
-(scipen=999)
-CRUX_summary_report<-summary_report(crux)
-CRUX_summary_report2<-summary_report(crux)
 
 #combine multiple COI NCBI names into 1
 colnms=c("X.CO1", "X.COX1", "X.COI")
@@ -24,17 +21,33 @@ ncbi$Combined_COI<-rowSums(ncbi[,colnms])
 drops <- c("X.CO1", "X.COX1", "X.COI")
 ncbi<-ncbi[ , !(names(ncbi) %in% drops)]
 
+#combine multiple COI NCBI names into 1
+colnms=c("X.CO1", "X.COX1", "X.COI")
+ncbi_genus$Combined_COI<-rowSums(ncbi_genus[,colnms])
+#removing columns that were combined
+drops <- c("X.CO1", "X.COX1", "X.COI")
+ncbi_genus<-ncbi_genus[ , !(names(ncbi_genus) %in% drops)]
+
+#combine multiple COI NCBI names into 1
+colnms=c("X.CO1", "X.COX1", "X.COI")
+ncbi_family$Combined_COI<-rowSums(ncbi_family[,colnms])
+#removing columns that were combined
+drops <- c("X.CO1", "X.COX1", "X.COI")
+ncbi_family<-ncbi_family[ , !(names(ncbi_family) %in% drops)]
+
+# main script -------------------------------------------------------------
+CRUX_summary_report2<-summary_report(crux)
+
 NCBI_summary_report<-summary_report(ncbi)
 
 G_NCBI_summary_report<-summary_report(ncbi_genus)
 F_NCBI_summary_report<-summary_report(ncbi_family)
 
-
 #export
-write.table(crux_lists_ma,file = "/Users/samuelrapp/GitHub/CALeDNA-NPS-AIS/BlueWaltzBio_Analysis/Which_org_have_no_references/out_put/CruxLists.csv", col.names = c('HaveSeq', 'havenoSeq'), row.names = FALSE)
-write.table(ncbi_genus_lists,file = "/Users/samuelrapp/GitHub/CALeDNA-NPS-AIS/BlueWaltzBio_Analysis/Which_org_have_no_references/out_put/CruxLists.csv", col.names = c('HaveSeq', 'havenoSeq'), row.names = FALSE)
-write.csv(ncbi_genus_lists, file  = "/Users/samuelrapp/GitHub/CALeDNA-NPS-AIS/BlueWaltzBio_Analysis/Which_org_have_no_references/out_put/CruxLists.csv")
-crux_lists_ma =as.matrix(crux_lists)
+write.csv(CRUX_summary_report2, file ="/Users/samuelrapp/Desktop/CALeDNA-NPS-AIS/BlueWaltzBio_Analysis/Which_org_have_no_references/out_put/CRUX_summary_report.csv")
+write.csv(NCBI_summary_report, file ="/Users/samuelrapp/Desktop/CALeDNA-NPS-AIS/BlueWaltzBio_Analysis/Which_org_have_no_references/out_put/Species_Genus_NCBI_summary_report.csv")
+write.csv(G_NCBI_summary_report, file ="/Users/samuelrapp/Desktop/CALeDNA-NPS-AIS/BlueWaltzBio_Analysis/Which_org_have_no_references/out_put/Genus_NCBI_summary_report.csv")
+write.csv(F_NCBI_summary_report, file ="/Users/samuelrapp/Desktop/CALeDNA-NPS-AIS/BlueWaltzBio_Analysis/Which_org_have_no_references/out_put/Family_NCBI_summary_report.csv")
 
 
 # intersections -----------------------------------------------------------

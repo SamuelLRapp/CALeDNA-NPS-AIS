@@ -1,0 +1,9 @@
+"","category","number of sequences found","percent of total sequences found","num of organism with at least one sequence","num of organisms with no sequences"
+"1","total",1150605,100,327,1
+"2","X18S",103901,0.0903011893742857,317,11
+"3","X.16S",309046,0.268594348190734,298,30
+"4","X.ITS2",153741,0.133617531646395,194,134
+"5","X.ITS1",140342,0.121972353674806,210,118
+"6","X.trnl",169101,0.146967030388361,107,221
+"7","X.12S",25861,0.0224760017555981,169,159
+"8","Combined_COI",248613,0.21607154496982,300,28
