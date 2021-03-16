@@ -14,31 +14,27 @@ ncbi <- read.csv('../input_ie_RefSeq_output/CovM_NCBI_SPPgenus_NPS.csv')
 
 # main script -------------------------------------------------------------
 
-
 ncbi_lists <- which_rows_are_empty_and_arenot(ncbi,Which_Column = -1)
-ncbi_lists <- which_rows_are_empty_and_arenot(ncbi,Which_Column = 9)
-ncbi_lists %>% Sentence_List_breakdown()
-sum_counts_in_columns(ncbi)
-statistics_df <- data.frame(matrix(ncol = 5, nrow = 0))
+ncbi_lists <- which_rows_are_empty_and_arenot(ncbi,Which_Column = 2)
+  Sentence_List_breakdown(ncbi_lists)
+ncbi <- ncbi[,1:7]
+hello<-sum_counts_in_columns(ncbi)
 
-dataframe <- convert_CRUX(ncbi)
+hello<-sum_counts_in_columns(crux)
 
-new_row_names <- "total"
-new_row_names<-  c(new_row_names, colnames(dataframe[-1]))#doesn't include column with taxa snames
-print(new_row_names)
+ncbi<-unite(ncbi, newcol, c(X.COI, X.CO1), remove=FALSE)
 
 statistics_df <- data.frame(matrix(ncol = 4, nrow = 0))
-new_col_names <- c("number of sequences found", "percent of total sequences found", "num of organism with at least one sequence", "num of organisms with no sequences")
+new_col_names <- c("category","number of sequences found", "percent of total sequences found", "num of organism with at least one sequence", "num of organisms with no sequences")
 colnames(statistics_df) <- new_col_names
-class(new_row_names[3])
-for(i in 1:new_row_names)
-{
-  print(new_row_names[1])
-  #print("helo")
-  # j<- (i+1)
-  # statistics_df[j,1]<-new_row_names[i]
-}
 
+na.omit(ncbi)
+non_number_values <- c('genus', 'family', 'class', 'order')
+crux[1,7]%in%non_number_values
+NA%in%non_number_values
+
+
+NA <- NA
 
 
 
@@ -96,10 +92,13 @@ convert_CRUX <- function(crux_output #take a crux output matrix and  turn the ch
 {
   print("I'm in")
   crux_without_taxonomic_names <- crux_output
+  crux_without_taxonomic_names<-  na.omit(crux_without_taxonomic_names)
+  
   non_number_values <- c('genus', 'family', 'class', 'order')
   
   ncols <- ncol(crux_output)
   nrows <- nrow(crux_output)
+  print("hello")
   
   for(i in 1:ncols)
   {
@@ -110,25 +109,45 @@ convert_CRUX <- function(crux_output #take a crux output matrix and  turn the ch
       if(isTRUE(boolean)) #if true, ie it matches genus, family, class, order
       {
        # print(paste(i,'space',j))
-        crux_without_taxonomic_names[j,i] <- 0
+        print(class(crux_without_taxonomic_names[j,i]))
+        crux_without_taxonomic_names[j,i] <- as.numeric(0)
+#       print(class(crux_without_taxonomic_names[j,i]))
       }
+      print(class(crux_without_taxonomic_names[j,i]))
+      
       # print(paste("WORKING", i))
     }
   }
  # print(crux_without_taxonomic_names)
-  return(crux_without_taxonomic_names)
+  firstcolumn <- crux_without_taxonomic_names[,1]
+  crux_without_taxonomic_names <- as.matrix(crux_without_taxonomic_names[,-1])
+  
+  crux_without_taxonomic_names <- as.data.frame(apply(crux_without_taxonomic_names, 2, as.numeric)) 
+  
+  print("I'm outish1")
+  
+  print(class(crux_without_taxonomic_names[2,2]))
+  print(class(crux_without_taxonomic_names[1,2]))
+  
+  crux_without_taxonomic_names<-cbind.data.frame(firstcolumn,crux_without_taxonomic_names)
+  print("I'm outish")
+  
+  print(class(crux_without_taxonomic_names[2,2]))
+  print(class(crux_without_taxonomic_names[1,2]))
+  
+  crux_without_taxonomic_names
 }
+
 
 which_rows_are_empty_and_arenot <- function(dataframe, Which_Column#-1 means do all rows, a column number is gvenn the function will only run on said column of the dataframe
                                             ) #returns list of 2 lists, one of species with seqs, and one of species without any sequences
 {
-  Which_Column <- Which_Column
+  print(Which_Column)
   if(is.null(Which_Column))
      {
        Which_Column <- -1
   }
-  print(Which_Column)
-  
+  Which_Column <- Which_Column
   dataframe <- convert_CRUX(dataframe)
 
   #create two lists
@@ -200,7 +219,11 @@ sum_counts_in_columns <- function(dataframe)
 {
   #calls convert_CRUX()s
   dataframe <- convert_CRUX(dataframe)
+  class(dataframe)
+  class(dataframe[,1])
+  class(dataframe[,2])
   
+
   new_row_names <- "total"
   new_row_names<-  c(new_row_names, colnames(dataframe[-1]))#doesn't include column with taxa snames
   print(new_row_names)
@@ -210,43 +233,45 @@ sum_counts_in_columns <- function(dataframe)
   colnames(statistics_df) <- new_col_names
   #get list of columns + a column callede "total"
   
-  print("hello")
+  print("test1")
   #add row names
-  for(i in 1:new_row_names)
+  for(i in 1:length(new_row_names))
   {
-    print("helo")
     statistics_df[i,1]<-new_row_names[i]
   }
-  
+  print("test1.5")
   barcodeSums <- colSums(dataframe[,-1]) #doesn't include column with taxa snames
+  print("test1.6")
+  
   Total_seq_found <- sum(barcodeSums)
-  statistics_df[2,2] <- Total_seq_found
-  statistics_df[2,3] <- 100
+  print("test1.7")
   
-  for(i in 3:new_row_names)
+  #hard code in the totals
+  statistics_df[1,2] <- Total_seq_found
+  print("test1.8")
+  statistics_df[1,3] <- 100
+  print("test2")
+  for(i in 2:length(new_row_names))
   {
-    statistics_df[i,2] <- barcodeSums[i]
-    statistics_df[i,3] <- (barcodeSums[i]/Total_seq_found)
+    x <- i-1
+    statistics_df[i,2] <- barcodeSums[x]
+    statistics_df[i,3] <- (barcodeSums[x]/Total_seq_found)
   }
+  print(barcodeSums)
   
-  # for(for(i in 3:new_row_names)
-  # {
-  #   #call organiisms with no ref seq funcition
-  #   #statistics_df[i,2] <- barcodeSums[i]
-  #   #statistics_df[i,3] <- (barcodeSums[i]/Total_seq_found)
-  # })
-  # 
+  #hard code in the totals
+  output_of_which_rows_are_empty_and_arenot <- which_rows_are_empty_and_arenot(dataframe, -1)
+  statistics_df[1,5] <- length(output_of_which_rows_are_empty_and_arenot[[2]])    #list 2 is thee species without any seqs
+  statistics_df[1,4] <-length(output_of_which_rows_are_empty_and_arenot[[1]])   #we know list 1 is the species with some seqs
+  print("almosthome")
   
-  
-  #for loop through the rows
-  #   fill in total sequences found
-  #number of organisms with one or more refseq 
-  #number organsms with no ref seq
-  
-  #fill in total row
-  #total sequences found, 
-  #add percent totals to other rows
-  #
+   for(i in 2:length(new_row_names))
+  {
+  x <- i#-1
+  output_of_which_rows_are_empty_and_arenot <- which_rows_are_empty_and_arenot(dataframe, Which_Column = x)
+  statistics_df[i,5] <- length(output_of_which_rows_are_empty_and_arenot[[2]])     #list 2 is the species without any seqs 
+  statistics_df[i,4] <- length(output_of_which_rows_are_empty_and_arenot[[1]])  #we know list 1 is the species with some seqs
+   }
   statistics_df
 }
 
