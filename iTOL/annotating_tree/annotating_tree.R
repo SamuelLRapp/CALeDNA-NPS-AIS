@@ -1,22 +1,56 @@
 ######### Samuel Rapp, 2/11/2021
 ###the goal of this R code is to take a Nexus .txt file from iTOL, and annotate it with CRUX/NCBI reference database information
 ###########
+
+# main --------------------------------------------------------------------
+
 setwd("~/GitHub/CALeDNA-NPS-AIS/JuypterNotebook/annotating_tree")
 OTL_dataframe  <- read.csv(file = "input_iTOL/NPS_AIS_GENUS_taxon_names_according_to_OTL.txt")
 CoverageMatrix_NCBI_genus_DF<- read.csv(file = "input_iTOL/CovM_NCBI_genus_NPS.csv")
 
-
+#combine multiple COI NCBI names into 1
+colnms=c("X.CO1", "X.COX1", "X.COI")
+CoverageMatrix_NCBI_genus_DF$Combined_COI<-rowSums(CoverageMatrix_NCBI_genus_DF[,colnms])
+#removing columns that were combined
+drops <- c("X.CO1", "X.COX1", "X.COI")
+CoverageMatrix_NCBI_genus_DF<-CoverageMatrix_NCBI_genus_DF[ , !(names(CoverageMatrix_NCBI_genus_DF) %in% drops)]
 
 function1output <-Annotated_OTL_IDS(OTL_dataframe, CoverageMatrix_NCBI_genus_DF)
 OTL_w_underscores<- add_underscores(function1output)
 write.csv(OTL_w_underscores, file = "OTT_IDD_Annotated", row.names = FALSE)
+max_100_cell_DF <-set_max_value(OTL_w_underscores, 100, 100)
+write.csv(max_100_cell_DF, file = "OTT_IDD_Annotated_max_100_cell", row.names = FALSE)
+
+
+
+OTT_IDD_Annotated_max_100_cell<- read.csv(file = "input_iTOL/OTT_IDD_Annotated_max_100_cell.csv")
 
 OTLs_left_behind<-compare_firstC_in_DFs(OTL_dataframe,function1output)      #find OTL values that didn't get replaced
 NUM_BWB_SPP_left_behind(CoverageMatrix_NCBI_genus_DF,function1output) #number of BWB values that didn't get replaced 
 
 
 
+# functionis --------------------------------------------------------------
 
+set_max_value <- function(dataframe, max , replace) #replace all values above a max with another value
+{
+ c <- ncol(dataframe)
+ r <- nrow(dataframe)
+  
+  for(i in 2:c)
+  {
+    for(j in 1:r)#r
+    {
+      if(dataframe[j,i] > max)
+      {
+        dataframe[j,i] <- replace
+      }
+    }
+    print(i)
+  }
+ 
+ dataframe
+}
 
  add_underscores <- function(ddata.frame) #takes OTL list and adds _ in betweeen spaces between name and ottid
 {
