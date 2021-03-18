@@ -1,0 +1,5 @@
+March 17th, 2020
+
+1. Could maybe create VenDiagrams for the diversity of information captured by NCBi vs CRUX at a given barcode
+	1.a I Don't see a reason to visualize that information at the moment. I can just compare the results inside CALeDNA-NPS-AIS/BlueWaltzBio_Analysis/Which_org_have_no_references/Which_org_have_no_ref_seq.R with which_rows_are_empty_and_arenot() between two values....
+	2
