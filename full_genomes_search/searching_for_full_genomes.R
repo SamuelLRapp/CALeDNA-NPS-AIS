@@ -6,9 +6,6 @@
 # libraries ---------------------------------------------------------------
 
 library(rentrez)
-set_entrez_key("4e400b86621f28a75c9025133cb1cea4f108")
-Sys.getenv("ENTREZ_KEY")
-
 # import datasets ---------------------------------------------------------
 
 setwd('/Users/samuelrapp/GitHub/CALeDNA-NPS-AIS/full_genomes_search')
