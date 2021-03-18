@@ -50,11 +50,32 @@ write.csv(G_NCBI_summary_report, file ="/Users/samuelrapp/Desktop/CALeDNA-NPS-AI
 write.csv(F_NCBI_summary_report, file ="/Users/samuelrapp/Desktop/CALeDNA-NPS-AIS/BlueWaltzBio_Analysis/Which_org_have_no_references/out_put/Family_NCBI_summary_report.csv")
 
 
+
+# comparing-specific-barcodes0between RSB NCBI and CRUX ---------------------------------------------
+
+crux_18S_lists <-which_rows_are_empty_and_arenot(crux,2)
+ncbi_18S_lists <-which_rows_are_empty_and_arenot(ncbi,2)
+crux_18S_lists[[1]]
+crux_lists <-which_rows_are_empty_and_arenot(crux,-1)
+ncbi_lists <-which_rows_are_empty_and_arenot(ncbi,-1)
+
+
+crux_COI_lists <-which_rows_are_empty_and_arenot(crux,5)
+ncbi_COI_lists <-which_rows_are_empty_and_arenot(ncbi,8)
+intersect_taxa<-intersect(crux_COI_lists[[1]],ncbi_COI_lists[[1]])
+
+
+intersect_taxa<-intersect(crux_18S_lists[[2]],ncbi_18S_lists[[2]])
+length(intersect_taxa) #the taxa overlap at the same barcode between RSB NCBI and CRUX is pretty high! 
+
+intersect_taxa<-intersect(crux_lists[[2]],ncbi_lists[[2]])
+ncbi_lists[[2]]
 # intersections -----------------------------------------------------------
 
 
 ###looking for intersections
 crux_lists$haveZeroSeqs %in% ncbi_lists$haveZeroSeqs
+
 intersect(crux_lists$haveZeroSeqs,ncbi_lists$haveZeroSeqs)
 
 intersect_taxa<-intersect(crux_lists[[2]],ncbi_lists[[2]])
@@ -107,7 +128,7 @@ convert_CRUX <- function(crux_output #take a crux output matrix and  turn the ch
       if(isTRUE(boolean)) #if true, ie it matches genus, family, class, order
       {
        # print(paste(i,'space',j))
-        print(class(crux_without_taxonomic_names[j,i]))
+    #    print(class(crux_without_taxonomic_names[j,i]))
         crux_without_taxonomic_names[j,i] <- as.numeric(0)
 #       print(class(crux_without_taxonomic_names[j,i]))
       }
@@ -140,7 +161,7 @@ convert_CRUX <- function(crux_output #take a crux output matrix and  turn the ch
 which_rows_are_empty_and_arenot <- function(dataframe, Which_Column#-1 means do all rows, a column number is gvenn the function will only run on said column of the dataframe
                                             ) #returns list of 2 lists, one of species with seqs, and one of species without any sequences
 {
-  print(Which_Column)
+  #print(Which_Column)
   if(is.null(Which_Column))
      {
        Which_Column <- -1
@@ -167,16 +188,16 @@ which_rows_are_empty_and_arenot <- function(dataframe, Which_Column#-1 means do 
       
       if(!is.null(total) && total > 0)
       {
-       # haveSomeSeq <- c(haveSomeSeq, dataframe[i,1])
-        haveSomeSeq <- c(haveSomeSeq, total)
+        haveSomeSeq <- c(haveSomeSeq, dataframe[i,1]) #add species name to list
+        #haveSomeSeq <- c(haveSomeSeq, total)
         
    #     print(dataframe[i,1])
       } else
       {
     #    print(dataframe[i,1])
-        haveZeroSeq <- c(haveZeroSeq, total)
-        print(i)
-      #  haveZeroSeq <- c(haveZeroSeq, dataframe[i,1])
+        #haveZeroSeq <- c(haveZeroSeq, total)
+       # print(i)
+       haveZeroSeq <- c(haveZeroSeq, dataframe[i,1])#add species name to list
       }
     }
   }else #if a specific columnn
@@ -188,12 +209,17 @@ which_rows_are_empty_and_arenot <- function(dataframe, Which_Column#-1 means do 
 
       if(!is.null(seqs) && seqs > 0)
       {
-        haveSomeSeq <- c(haveSomeSeq, dataframe[i,Which_Column])
+        #haveSomeSeq <- c(haveSomeSeq, dataframe[i,Which_Column])
+        haveSomeSeq <- c(haveSomeSeq, dataframe[i,1]) #add species name to list
+        
+      #  print(dataframe[i,Which_Column])
         #print(seqs)
       } else
       {
        # print(seqs)
-        haveZeroSeq <- c(haveZeroSeq, dataframe[i,Which_Column])
+       # haveZeroSeq <- c(haveZeroSeq, dataframe[i,Which_Column])
+        haveZeroSeq <- c(haveZeroSeq, dataframe[i,1])#add species name to list
+        
       }
     }
   }
@@ -205,7 +231,7 @@ which_rows_are_empty_and_arenot <- function(dataframe, Which_Column#-1 means do 
   {
     COLNam <- colnames(dataframe)
     column_name <- paste0("Have",COLNam[Which_Column],"Seq")
-    print(column_name)
+    #print(column_name)
     results <- list(single_Barcode_haveSomeseq = haveSomeSeq, single_Barcode_haveZeroSeqs =haveZeroSeq)
     results<- as.matrix(results)
   }
